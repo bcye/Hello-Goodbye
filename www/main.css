@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+html {
+  font-family: 'Roboto'
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+#promotional-image {
+  margin: 8px;
+  font-weight: 400;
+}
