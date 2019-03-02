@@ -1,7 +1,7 @@
 {
-  "name": "Hello, Goodbye!",
+  "name": "Hello, Goodbye! - Chat popup blocker",
   "version": "1.0",
-  "description": "Say no to chatlogs.",
+  "description": "Block chat popups",
   "icons": {
     "32": "icons/discuss-issue@0,25x.png",
     "64": "icons/discuss-issue@0,5x.png"
