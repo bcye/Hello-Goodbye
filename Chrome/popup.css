@@ -1,0 +1,27 @@
+html {
+  width: 250px;
+}
+
+p, h1, h2 {
+  font-family: 'Roboto'
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1, h2 {
+  margin: 2px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: grey;
+}
