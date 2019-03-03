@@ -113,5 +113,35 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<!-- MakerWidget -->
+			<script>
+			(function(d, h, m){
+					var js, fjs = d.getElementsByTagName(h)[0];
+					if (d.getElementById(m)){return;}
+					js = d.createElement(h); js.id = m;
+					js.onload = function(){
+							window.makerWidgetComInit({
+							position: "left",
+							widget: "jn31pg07sn3gzygv-uexec7zaehkqrdlx-qubndpqjzef75lli"
+					})};
+					js.src = "https://makerwidget.com/js/embed.js";
+					fjs.parentNode.insertBefore(js, fjs)
+			}(document, "script", "dhm"))
+			</script>
+			<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+			<script>
+			(function(f, a, t, h, o, m){
+				a[h]=a[h]||function(){
+					(a[h].q=a[h].q||[]).push(arguments)
+				};
+				o=f.createElement('script'),
+				m=f.getElementsByTagName('script')[0];
+				o.async=1; o.src=t; o.id='fathom-script';
+				m.parentNode.insertBefore(o,m)
+			})(document, window, '//brme-fathom-analytics.herokuapp.com/tracker.js', 'fathom');
+			fathom('set', 'siteId', 'YXUPM');
+			fathom('trackPageview');
+			</script>
+			<!-- / Fathom -->
 	</body>
 </html>
