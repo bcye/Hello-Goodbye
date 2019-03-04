@@ -6,7 +6,8 @@
               "*://widget.intercom.io/*",
               "*://connect.facebook.net/en_US/sdk/xfbml.customerchat.js",
               "*://assets.producthunt.com/assets/upwigloader.js",
-              "*://js.driftt.com/include/*"
+              "*://js.driftt.com/include/*",
+              "*://*.crisp.chat/*"
             ]},
             ["blocking"]);
   // }

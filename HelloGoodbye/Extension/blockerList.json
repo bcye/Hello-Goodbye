@@ -1,0 +1,13 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "https://widget.intercom.io/widget/v1fpkefq"
+            "if-domain": [
+                "widget.intercom.io"
+            ]
+        }
+    }
+]
