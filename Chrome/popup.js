@@ -1,4 +1,4 @@
-/* chrome.storage.sync.get('disabled', function(value) {
+chrome.storage.sync.get('disabled', function(value) {
   if (value.disabled) {
     hideButton('disable-btn');
   } else {
@@ -39,4 +39,4 @@
     });
   }
   document.getElementById('enable-btn').addEventListener('click', enableExtension);
-}); */
+});
