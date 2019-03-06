@@ -29,7 +29,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://connect.facebook.net/en_US/sdk/xfbml.customerchat.js",
                 "*://assets.producthunt.com/assets/upwigloader.js",
                 "*://js.driftt.com/include/*",
-                "*://*.crisp.chat/*"
+                "*://*.crisp.chat/*",
+                "*://*.intergram.xyz/js/*"
               ]},
               ["blocking"]);
   // }
