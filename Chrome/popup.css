@@ -1,9 +1,6 @@
 html {
   width: 250px;
-}
-
-p, h1, h2 {
-  font-family: 'Roboto'
+  font-family: 'Roboto';
 }
 
 h1 {
@@ -20,4 +17,19 @@ h1, h2 {
 
 a {
   color: grey;
+}
+
+.toggle-btn {
+  font-size: 18px;
+  padding: 10px;
+  width: 235px;
+  color: white;
+}
+
+#enable-btn {
+  background-color: green;
+}
+
+#disable-btn {
+  background-color: red;
 }
