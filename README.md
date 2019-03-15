@@ -1,27 +1,12 @@
-![Comparison](https://github.com/bcye/Hello-Goodbye/raw/master/photoshop/Exports/promotional.jpg)
+# Florence
 
-# Hello-Goodbye
+A landing page template.
 
-A Chrome extension to block annoying chat bubbles from Intercom & Co.
+* [Getting started](#getting-started)
 
-[Visit website](https://hellogoodbye.app)
+## Getting started
+* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
+* Next, use your command line to enter your project directory.
+* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
 
-[Add to Chrome](https://chrome.google.com/webstore/detail/hello-goodbye-chat-popup/nihpfpbibfgpgnfpbfedkdokihggapoi)
-
-[Add to Firefox](https://addons.mozilla.org/en-US/firefox/addon/hello-goodbye/)
-
-## Contributing
-
-If you found an error, or a domain is not blocked, please open a pull request with the necessary changes (if possible) or open a new issue.
-
-If you want to add a new feature, please first open an issue to discuss it before starting to work on it.
-
-Thank you for helping to make this extension better :)
-
-Please support the development by donating a cup of coffee.
-
-<a href="https://www.buymeacoffee.com/bruceroet" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-## Author
-
-[Bruce Roettgers](https://bruceroettgers.me)
+You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
