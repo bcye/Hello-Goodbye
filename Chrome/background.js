@@ -30,7 +30,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://assets.producthunt.com/assets/upwigloader.js",
                 "*://js.driftt.com/include/*",
                 "*://*.crisp.chat/*",
-                "*://*.intergram.xyz/js/*"
+                "*://*.intergram.xyz/js/*",
+                "*://widget.mfy.im/*"
               ]},
               ["blocking"]);
   // }
