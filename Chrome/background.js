@@ -4,11 +4,11 @@ var isDisabled = false
 
 chrome.storage.onChanged.addListener(function(changes, namespace) {
   for (var key in changes) {
-    var storageChange = changes[key];
+    var storageChange = changes[key].newValue;
     if (key === 'disabled') {
-      console.log(key);
+      console.log(storageChange);
       isDisabled = storageChange;
-      console.log('isDisabled set');
+      console.log(isDisabled);
     }
   }
 });
@@ -16,7 +16,7 @@ chrome.webRequest.onBeforeRequest.addListener(
               function(details) {
                 console.log('from first callback');
                   if (isDisabled) {
-                    console.log('returned false')
+                    console.log('returned false');
                     return { cancel: false } // this should return from the function (details) level
                   } else {
                     console.log('returned true')
@@ -34,7 +34,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://widget.mfy.im/*",
                 "*://connect.podium.com/*",
                 "*://app.hubspot.com/*",
-                "*://static.getchipbot.com",
+                "*://static.getchipbot.com/",
                 "*://static.zdassets.com/ekr/snippet.js",
                 "*://www.couchbase.com/webfiles/1552355627964/js/contact-popup-form.js"
               ]},
