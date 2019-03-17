@@ -8,3 +8,4 @@
 ||connect.podium.com/*
 ||app.hubspot.com/*
 ||static.getchipbot.com/*
+||static.zdassets.com/ekr/snippet.js^
