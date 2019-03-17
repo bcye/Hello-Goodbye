@@ -26,6 +26,18 @@ Please support the development by donating a cup of coffee.
 
 <a href="https://www.buymeacoffee.com/bruceroet" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
+## Installing
+
+To get the development started:
+1. Open Chrome and visit the [extensions page](chrome://extensions).
+2. Activate developer mode so you can load unpacked extensions.
+3. Press Load Unpacked
+4. Select the Chrome folder in this repo
+
+- When you make changes make sure to click refresh to see them.
+- Errors stay until you click Clear. (They won't go away when you refresh)
+
+
 ## Supporters
 
 **Thank you so much to these awesome people** for buying me a coffee on the donation page.
