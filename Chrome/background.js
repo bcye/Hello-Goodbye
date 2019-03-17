@@ -32,7 +32,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://*.crisp.chat/*",
                 "*://*.intergram.xyz/js/*",
                 "*://widget.mfy.im/*",
-                "*://connect.podium.com/*"
+                "*://connect.podium.com/*",
+                "*://app.hubspot.com/*"
               ]},
               ["blocking"]);
   // }
