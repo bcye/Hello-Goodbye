@@ -33,7 +33,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://*.intergram.xyz/js/*",
                 "*://widget.mfy.im/*",
                 "*://connect.podium.com/*",
-                "*://app.hubspot.com/*"
+                "*://app.hubspot.com/*",
+                "*://static.getchipbot.com"
               ]},
               ["blocking"]);
   // }
