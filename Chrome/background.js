@@ -35,7 +35,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://connect.podium.com/*",
                 "*://app.hubspot.com/*",
                 "*://static.getchipbot.com",
-                "*://static.zdassets.com/ekr/snippet.js"
+                "*://static.zdassets.com/ekr/snippet.js",
+                "*://www.couchbase.com/webfiles/1552355627964/js/contact-popup-form.js"
               ]},
               ["blocking"]);
   // }
