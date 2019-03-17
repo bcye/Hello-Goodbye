@@ -31,6 +31,7 @@ Please support the development by donating a cup of coffee.
 **Thank you so much to these awesome people** for buying me a coffee on the donation page.
 
 - [@troyd](https://twitter.com/troyd)
+- Evan
 
 ## Author
 
