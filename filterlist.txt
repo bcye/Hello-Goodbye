@@ -1,3 +1,12 @@
+! Title: Hello Goodbye Filter
+! Expires: 5 days
+! Homepage: https://hellogoodbye.app/
+! Description: Blocks every chat or helpdesk pop up in your browser.
+
+# =================
+# Stop Chat Pop Ups
+# =================
+
 ||widget.intercom.io/*
 ||connect.facebook.net/en_US/sdk/xfbml.customerchat.js
 ||assets.producthunt.com/assets/upwigloader.js
