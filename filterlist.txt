@@ -1,0 +1,8 @@
+||widget.intercom.io/*
+||connect.facebook.net/en_US/sdk/xfbml.customerchat.js
+||assets.producthunt.com/assets/upwigloader.js
+||js.driftt.com/include/*
+||*.crisp.chat/*
+||*.intergram.xyz/js/*
+||widget.mfy.im/*
+||connect.podium.com/*
