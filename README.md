@@ -44,6 +44,7 @@ To get the development started:
 
 - [@troyd](https://twitter.com/troyd)
 - Evan
+- Tucker
 
 ## Author
 
