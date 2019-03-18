@@ -22,3 +22,4 @@
 ||assetscdn-wchat.freshchat.com/*
 ||wchat.freshchat.com/*
 ||code.jivosite.com/script/widget/*
+||code.tido.co/*

@@ -39,7 +39,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://www.couchbase.com/webfiles/1552355627964/js/contact-popup-form.js",
                 "*://assetscdn-wchat.freshchat.com/*",
                 "*://wchat.freshchat.com/*",
-                "*://code.jivosite.com/script/widget/*"
+                "*://code.jivosite.com/script/widget/*",
+                "*://code.tidio.co/*"
               ]},
               ["blocking"]);
   // }
