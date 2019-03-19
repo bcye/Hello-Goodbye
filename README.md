@@ -41,6 +41,13 @@ Please support the development by donating a cup of coffee.
 
 <a href="https://www.buymeacoffee.com/bruceroet" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
+### Current Goal
+- [ ] Pay for domain ($12)
+
+### Completed Goals
+- [x] Pay for Google Submission ($5) 
+- [x] FaaS (Fajar as a service) ($5)
+
 ## Supporters
 
 **Thank you so much to these awesome people** for buying me a coffee on the donation page.
