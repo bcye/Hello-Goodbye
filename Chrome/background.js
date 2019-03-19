@@ -40,7 +40,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://assetscdn-wchat.freshchat.com/*",
                 "*://wchat.freshchat.com/*",
                 "*://code.jivosite.com/script/widget/*",
-                "*://code.tidio.co/*"
+                "*://code.tidio.co/*",
+                "*://*.user.com/static/js/*"
               ]},
               ["blocking"]);
   // }
