@@ -22,6 +22,10 @@ Thank you for helping to make this extension better :)
 
 **To get started** you can also look into existing issues and try to solve them, there are some that dont even require code.
 
+## Support this project
+
+![Buy me a coffee picture](https://github.com/bcye/Hello-Goodbye/raw/master/H.png)
+
 Please support the development by donating a cup of coffee.
 
 <a href="https://www.buymeacoffee.com/bruceroet" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
