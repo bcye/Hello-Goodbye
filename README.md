@@ -2,7 +2,7 @@
 
 # Hello-Goodbye
 
-A Chrome extension to block annoying chat bubbles from Intercom & Co.
+A browser extension to block annoying chat bubbles from Intercom & Co.
 
 [Visit website](https://hellogoodbye.app)
 
