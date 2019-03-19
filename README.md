@@ -35,7 +35,7 @@ To get the development started:
 
 ## Support this project
 
-![Buy me a coffee picture](https://github.com/bcye/Hello-Goodbye/raw/master/H.png)
+![Buy me a coffee picture](https://github.com/bcye/Hello-Goodbye/raw/master/H%400%2C25x.png)
 
 Please support the development by donating a cup of coffee.
 
