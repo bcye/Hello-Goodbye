@@ -41,6 +41,9 @@ Please support the development by donating a cup of coffee.
 
 <a href="https://www.buymeacoffee.com/bruceroet" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
+<a href="https://www.patreon.com/bePatron?u=521251" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" style="width: auto; height: auto;display: block;margin-left: auto;margin-right: auto;width: 50%;"></a>
+
+
 ### Current Goal
 - [ ] Pay for domain ($12)
 
