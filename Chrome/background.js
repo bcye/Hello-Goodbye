@@ -41,7 +41,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://wchat.freshchat.com/*",
                 "*://code.jivosite.com/script/widget/*",
                 "*://code.tidio.co/*",
-                "*://*.user.com/static/js/*"
+                "*://*.user.com/static/js/*",
+                "*://secure.livechatinc.com/*"
               ]},
               ["blocking"]);
   // }
