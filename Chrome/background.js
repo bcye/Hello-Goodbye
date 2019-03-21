@@ -42,7 +42,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://code.jivosite.com/script/widget/*",
                 "*://code.tidio.co/*",
                 "*://*.user.com/static/js/*",
-                "*://secure.livechatinc.com/*"
+                "*://secure.livechatinc.com/*",
+                "*://*.justanswer.com/revizely/2/core/ja-com.js"
               ]},
               ["blocking"]);
   // }
