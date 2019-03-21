@@ -43,7 +43,9 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://code.tidio.co/*",
                 "*://*.user.com/static/js/*",
                 "*://secure.livechatinc.com/*",
-                "*://*.justanswer.com/revizely/2/core/ja-com.js"
+                "*://*.justanswer.com/revizely/2/core/ja-com.js",
+                "*://code.snapengage.com/*",
+                "*://sdk.inbenta.io/chatbot/*"
               ]},
               ["blocking"]);
   // }

@@ -22,7 +22,9 @@
 ||assetscdn-wchat.freshchat.com/*
 ||wchat.freshchat.com/*
 ||code.jivosite.com/script/widget/*
-||code.tido.co/*
+||code.tidio.co/*
 ||*.user.com/static/js/*
 ||secure.livechatinc.com/*
 ||justanswer.com/revizely/2/core/ja-com.js
+||code.snapengage.com/*
+||sdk.inbenta.io/chatbot/*
