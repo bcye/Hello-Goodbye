@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! Title: Hello, Goodbye!
 ! Expires: 5 days
 ! Homepage: https://hellogoodbye.app/
