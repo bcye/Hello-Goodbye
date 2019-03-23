@@ -1,6 +1,6 @@
 {
   "name": "Hello, Goodbye! - Chat popup blocker",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Block chat popups",
   "icons": {
     "32": "icons/discuss-issue@0,25x.png",
@@ -19,5 +19,6 @@
   "browser_action": {
     "default_popup": "popup.html"
   },
+  "options_page": "options.html",
   "manifest_version": 2
 }

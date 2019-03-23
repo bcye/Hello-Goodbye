@@ -1,6 +1,7 @@
 // chrome.storage.sync.get('disabled', function(value) {
   // if (!value.disabled) {
 var isDisabled = false
+var amazonDisabled = false
 
 chrome.storage.onChanged.addListener(function(changes, namespace) {
   for (var key in changes) {
@@ -9,6 +10,9 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
       console.log(storageChange);
       isDisabled = storageChange;
       console.log(isDisabled);
+    } 
+    if (key === 'amazonDisabled') {
+      amazonDisabled = storageChange;
     }
   }
 });
@@ -50,3 +54,23 @@ chrome.webRequest.onBeforeRequest.addListener(
               ["blocking"]);
   // }
 // });
+
+chrome.webRequest.onBeforeRequest.addListener(
+  function(details) {
+      if (amazonDisabled == false) {
+      return {
+          redirectUrl: details.url + 
+              (details.url.indexOf("?") == -1 ? "?" : "") +
+              (details.url.indexOf("&tag=whathaveiread-20") == -1 ? "&tag=whathaveiread-20" : "")
+      };
+    }
+  },
+  {urls: ['*://*.amazon.com/*']},
+  ['blocking']
+);
+
+chrome.runtime.onInstalled.addListener(function (object) {
+  chrome.tabs.create({url: "chrome-extension://lgfocjjkcgbfgelhnbdmeobejanloaco/options.html"}, function (tab) {
+      console.log("New tab launched with chrome-extension://lgfocjjkcgbfgelhnbdmeobejanloaco/options.html");
+  });
+});
