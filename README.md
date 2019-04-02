@@ -43,6 +43,8 @@ Please support the development by donating a cup of coffee.
 
 <a href="https://www.patreon.com/bePatron?u=521251" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" style="width: auto; height: auto;display: block;margin-left: auto;margin-right: auto;width: 50%;"></a>
 
+Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
+
 
 ### Current Goal
 - [ ] Pay for domain ($12)
@@ -58,6 +60,7 @@ Please support the development by donating a cup of coffee.
 - [@troyd](https://twitter.com/troyd)
 - Evan
 - Tucker
+- 20i hosting (sponsor for one month)
 
 ## Author
 
