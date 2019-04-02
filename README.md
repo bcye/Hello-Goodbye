@@ -45,13 +45,10 @@ Please support the development by donating a cup of coffee.
 
 Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
 
-
-### Current Goal
-- [ ] Pay for domain ($12)
-
 ### Completed Goals
 - [x] Pay for Google Submission ($5) 
 - [x] FaaS (Fajar as a service) ($5)
+- [x] Pay for domain ($12)
 
 ## Supporters
 
