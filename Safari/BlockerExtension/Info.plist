@@ -32,6 +32,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 Dirk Hulverscheidt. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>Add a description of what your extension does here.</string>
+	<string>This extension blocks annoying chat widgets.</string>
 </dict>
 </plist>
