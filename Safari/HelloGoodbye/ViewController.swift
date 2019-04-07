@@ -27,4 +27,9 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func openDonationPage(_ sender: Any) {
+        let url = URL(string: "https://buymeacoff.ee/bruceroet")!
+        NSWorkspace.shared.open(url)
+    }
+    
 }
