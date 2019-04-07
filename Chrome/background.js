@@ -1,8 +1,6 @@
-// chrome.storage.sync.get('disabled', function(value) {
-  // if (!value.disabled) {
-var isDisabled = false
-var amazonDisabled = false
+var isDisabled = false;
 
+// extension can be disabled temporarily
 chrome.storage.onChanged.addListener(function(changes, namespace) {
   for (var key in changes) {
     var storageChange = changes[key].newValue;
@@ -11,22 +9,20 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
       isDisabled = storageChange;
       console.log(isDisabled);
     } 
-    if (key === 'amazonDisabled') {
-      amazonDisabled = storageChange;
-    }
   }
 });
+
+// block outgoing requests for help widgets
 chrome.webRequest.onBeforeRequest.addListener(
               function(details) {
-                console.log('from first callback');
+                // set badge text to indicate that a help widget is available
+                chrome.browserAction.setBadgeText({text: "HELP", tabId: details.tabId});
+
                   if (isDisabled) {
-                    console.log('returned false');
                     return { cancel: false } // this should return from the function (details) level
                   } else {
-                    console.log('returned true')
                     return { cancel: true }
                   }
-                console.log('still from first')
               },
               {urls: [
                 "*://widget.intercom.io/*",
@@ -52,25 +48,3 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://sdk.inbenta.io/chatbot/*"
               ]},
               ["blocking"]);
-  // }
-// });
-
-chrome.webRequest.onBeforeRequest.addListener(
-  function(details) {
-      if (amazonDisabled == false) {
-      return {
-          redirectUrl: details.url + 
-              (details.url.indexOf("?") == -1 ? "?" : "") +
-              (details.url.indexOf("&tag=whathaveiread-20") == -1 ? "&tag=whathaveiread-20" : "")
-      };
-    }
-  },
-  {urls: ['*://*.amazon.com/*']},
-  ['blocking']
-);
-
-chrome.runtime.onInstalled.addListener(function (object) {
-  chrome.tabs.create({url: "chrome-extension://lgfocjjkcgbfgelhnbdmeobejanloaco/options.html"}, function (tab) {
-      console.log("New tab launched with chrome-extension://lgfocjjkcgbfgelhnbdmeobejanloaco/options.html");
-  });
-});

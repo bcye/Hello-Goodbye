@@ -10,7 +10,9 @@
     "storage",
     "webRequest",
     "webRequestBlocking",
-    "*://*/*"
+    "*://*/*",
+    "webNavigation",
+    "tabs"
   ],
   "background": {
       "scripts": ["background.js"],
