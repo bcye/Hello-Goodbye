@@ -45,6 +45,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://secure.livechatinc.com/*",
                 "*://*.justanswer.com/revizely/2/core/ja-com.js",
                 "*://code.snapengage.com/*",
-                "*://sdk.inbenta.io/chatbot/*"
+                "*://sdk.inbenta.io/chatbot/*",
+                "*://pi2.movoto.com/1.7.654/javascripts/desktop/movoto.min.js"
               ]},
               ["blocking"]);
