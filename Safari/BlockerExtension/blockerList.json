@@ -40,7 +40,7 @@
             "type": "block"
         },
         "trigger": {
-            "url-filter": ".\.crisp\.chat/.",
+            "url-filter": "^(http|https)://.\.crisp\.chat/.",
             "resource-type": ["script"]
         }
     },

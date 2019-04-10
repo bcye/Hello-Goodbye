@@ -47,6 +47,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://code.snapengage.com/*",
                 "*://sdk.inbenta.io/chatbot/*",
                 "*://pi2.movoto.com/1.7.654/javascripts/desktop/movoto.min.js",
-                "*://*.zopim.com/*"
+                "*://*.zopim.com/*",
+                "*://cdn.gubagoo.io/*"
               ]},
               ["blocking"]);
