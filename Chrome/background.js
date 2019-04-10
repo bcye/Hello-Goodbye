@@ -48,6 +48,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://sdk.inbenta.io/chatbot/*",
                 "*://pi2.movoto.com/1.7.654/javascripts/desktop/movoto.min.js",
                 "*://*.zopim.com/*",
-                "*://cdn.gubagoo.io/*"
+                "*://cdn.gubagoo.io/*",
+                "*://leadconnect.ipmaxi.se/*"
               ]},
               ["blocking"]);
