@@ -45,10 +45,11 @@ Please support the development by donating a cup of coffee.
 
 Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
 
-### Completed Goals
+### Goals
 - [x] Pay for Google Submission ($5) 
 - [x] FaaS (Fajar as a service) ($5)
 - [x] Pay for domain ($12)
+- [ ] Pay for yearly Apple Developer membership (needed to develop for safari) ($8/99)
 
 ## Supporters
 
