@@ -4,8 +4,7 @@
             "type": "block"
         },
         "trigger": {
-            "url-filter": "widget\.intercom.io/.",
-            "resource-type": ["script"]
+            "url-filter": "^[^:]+://+([^:/]+\.)?widget\.intercom\.io[:/]"
         }
     },
     {
