@@ -10,7 +10,7 @@ A browser extension to block annoying chat bubbles from Intercom & Co.
 
 [Add to Firefox](https://addons.mozilla.org/en-US/firefox/addon/hello-goodbye/)
 
-[Filter list for ad blockers](abp:subscribe?location=https://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt)
+[Filter list for ad blockers](https://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt)
 
 ## Contributing
 
