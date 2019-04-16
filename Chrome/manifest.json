@@ -11,8 +11,7 @@
     "webRequest",
     "webRequestBlocking",
     "*://*/*",
-    "webNavigation",
-    "tabs"
+    "activeTab"
   ],
   "background": {
       "scripts": ["background.js"],
