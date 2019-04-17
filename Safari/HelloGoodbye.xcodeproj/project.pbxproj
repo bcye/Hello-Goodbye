@@ -185,9 +185,19 @@
 				TargetAttributes = {
 					EDDE49D0225A9834005DE7A4 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+						};
 					};
 					EDDE4A05225A98DF005DE7A4 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -397,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = BN988BU552;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = HelloGoodbye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = BN988BU552;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = HelloGoodbye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,6 +447,7 @@
 				CODE_SIGN_ENTITLEMENTS = BlockerExtension/BlockerExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN988BU552;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = BlockerExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +468,7 @@
 				CODE_SIGN_ENTITLEMENTS = BlockerExtension/BlockerExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN988BU552;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = BlockerExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
