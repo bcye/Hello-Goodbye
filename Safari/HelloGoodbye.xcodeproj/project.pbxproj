@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED28F00F2266B85300FF705B /* backupList.json in Resources */ = {isa = PBXBuildFile; fileRef = ED28F00E2266B85300FF705B /* backupList.json */; };
 		ED9F14A2225ABD4B008F7645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9F14A1225ABD4B008F7645 /* Assets.xcassets */; };
 		EDDE49D5225A9834005DE7A4 /* HelloGoodbye.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = EDDE49D4225A9834005DE7A4 /* HelloGoodbye.entitlements */; };
 		EDDE49D7225A9834005DE7A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDE49D6225A9834005DE7A4 /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED28F00E2266B85300FF705B /* backupList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = backupList.json; sourceTree = "<group>"; };
 		ED9F14A1225ABD4B008F7645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HelloGoodbye/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		EDDE49D1225A9834005DE7A4 /* HelloGoodbye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGoodbye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDE49D4225A9834005DE7A4 /* HelloGoodbye.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloGoodbye.entitlements; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				EDDE4A0B225A98DF005DE7A4 /* ContentBlockerRequestHandler.swift */,
 				EDDE4A0D225A98DF005DE7A4 /* Info.plist */,
 				EDDE4A0E225A98DF005DE7A4 /* BlockerExtension.entitlements */,
+				ED28F00E2266B85300FF705B /* backupList.json */,
 			);
 			path = BlockerExtension;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				ED9F14A2225ABD4B008F7645 /* Assets.xcassets in Resources */,
 				EDDE4A0A225A98DF005DE7A4 /* blockerList.json in Resources */,
+				ED28F00F2266B85300FF705B /* backupList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
