@@ -10,7 +10,7 @@
     },
     {
         "trigger": {
-            "url-filter": "intercom",
+            "url-filter": "driftt ",
             "resource-type": ["script"]
         },
         "action": {
