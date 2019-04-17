@@ -10,7 +10,16 @@
     },
     {
         "trigger": {
-            "url-filter": "driftt ",
+            "url-filter": "driftt",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "crisp.chat",
             "resource-type": ["script"]
         },
         "action": {
