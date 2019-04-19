@@ -49,6 +49,9 @@ If there's something wrong, or you just want to say hi, tweet at me @hellogoodby
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Setup Instructions" id="Ah4-7m-yRM"/>
+                    <connections>
+                        <outlet property="imageView" destination="CgL-eJ-3Ex" id="JIq-QD-ufL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
