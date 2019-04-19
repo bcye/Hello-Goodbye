@@ -31,7 +31,10 @@
                                 <string key="text">Thank you for using this app, you're supporting an indie maker!
 
 If there's something wrong, or you just want to say hi, tweet at me @hellogoodbyeapp or write an email to hello@hellogoodby.app
-</string>
+
+Using FLAnimatedImage available under the MIT license.
+
+Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
