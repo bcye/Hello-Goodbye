@@ -14,5 +14,6 @@ target 'HelloGoodbyeiOS' do
   use_frameworks!
 
   # Pods for HelloGoodbyeiOS
+  pod 'FLAnimatedImage', '~> 1.0'
 
 end

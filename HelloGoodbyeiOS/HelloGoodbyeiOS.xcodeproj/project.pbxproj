@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52DC2B264F8F087A7B1A31B0 /* Pods_BlockerExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E8E7639129CBE01DBA2C29 /* Pods_BlockerExtension.framework */; };
+		91C4D3A3C0CE8BEA1533CDC7 /* Pods_HelloGoodbyeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2958F8B7AE533282CB0B6E66 /* Pods_HelloGoodbyeiOS.framework */; };
 		ED2B272D22694D30003B91C3 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = ED2B272C22694D30003B91C3 /* blockerList.json */; };
+		ED2B2736226963C9003B91C3 /* hellogoodbye.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED2B2735226963C9003B91C3 /* hellogoodbye.gif */; };
 		ED5A00A42263A976003FC741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A00A32263A976003FC741 /* AppDelegate.swift */; };
 		ED5A00A62263A976003FC741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A00A52263A976003FC741 /* ViewController.swift */; };
 		ED5A00A92263A976003FC741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5A00A72263A976003FC741 /* Main.storyboard */; };
@@ -42,7 +45,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2958F8B7AE533282CB0B6E66 /* Pods_HelloGoodbyeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloGoodbyeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC23D214D365880E038D75C /* Pods-BlockerExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockerExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockerExtension/Pods-BlockerExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		C351D37FC359286CEC347AEF /* Pods-HelloGoodbyeiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloGoodbyeiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloGoodbyeiOS/Pods-HelloGoodbyeiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CFA8ADB6D43F16A9785202EC /* Pods-HelloGoodbyeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloGoodbyeiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloGoodbyeiOS/Pods-HelloGoodbyeiOS.release.xcconfig"; sourceTree = "<group>"; };
+		E7E3680E1A7986DB47F50AA9 /* Pods-BlockerExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockerExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockerExtension/Pods-BlockerExtension.release.xcconfig"; sourceTree = "<group>"; };
 		ED2B272C22694D30003B91C3 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = ../../Safari/BlockerExtension/blockerList.json; sourceTree = "<group>"; };
+		ED2B2735226963C9003B91C3 /* hellogoodbye.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hellogoodbye.gif; sourceTree = "<group>"; };
 		ED5A00A02263A976003FC741 /* HelloGoodbyeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGoodbyeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5A00A32263A976003FC741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED5A00A52263A976003FC741 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +62,7 @@
 		ED5A00B92263A9A0003FC741 /* BlockerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BlockerExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5A00BD2263A9A0003FC741 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		ED5A00BF2263A9A0003FC741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E8E7639129CBE01DBA2C29 /* Pods_BlockerExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockerExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C4D3A3C0CE8BEA1533CDC7 /* Pods_HelloGoodbyeiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,18 +78,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DC2B264F8F087A7B1A31B0 /* Pods_BlockerExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6916D7F776565741C7131662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AC23D214D365880E038D75C /* Pods-BlockerExtension.debug.xcconfig */,
+				E7E3680E1A7986DB47F50AA9 /* Pods-BlockerExtension.release.xcconfig */,
+				C351D37FC359286CEC347AEF /* Pods-HelloGoodbyeiOS.debug.xcconfig */,
+				CFA8ADB6D43F16A9785202EC /* Pods-HelloGoodbyeiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBEC78B5A54FD20B4D721038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4E8E7639129CBE01DBA2C29 /* Pods_BlockerExtension.framework */,
+				2958F8B7AE533282CB0B6E66 /* Pods_HelloGoodbyeiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED5A00972263A976003FC741 = {
 			isa = PBXGroup;
 			children = (
 				ED5A00A22263A976003FC741 /* HelloGoodbyeiOS */,
 				ED5A00BA2263A9A0003FC741 /* BlockerExtension */,
 				ED5A00A12263A976003FC741 /* Products */,
+				6916D7F776565741C7131662 /* Pods */,
+				DBEC78B5A54FD20B4D721038 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +131,7 @@
 				ED5A00A32263A976003FC741 /* AppDelegate.swift */,
 				ED5A00A52263A976003FC741 /* ViewController.swift */,
 				ED5A00A72263A976003FC741 /* Main.storyboard */,
+				ED2B2735226963C9003B91C3 /* hellogoodbye.gif */,
 				ED5A00AA2263A977003FC741 /* Assets.xcassets */,
 				ED5A00AC2263A977003FC741 /* LaunchScreen.storyboard */,
 				ED5A00AF2263A977003FC741 /* Info.plist */,
@@ -121,10 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5A00B22263A977003FC741 /* Build configuration list for PBXNativeTarget "HelloGoodbyeiOS" */;
 			buildPhases = (
+				567F490BC346626EFBF40E86 /* [CP] Check Pods Manifest.lock */,
 				ED5A009C2263A976003FC741 /* Sources */,
 				ED5A009D2263A976003FC741 /* Frameworks */,
 				ED5A009E2263A976003FC741 /* Resources */,
 				ED5A00C62263A9A0003FC741 /* Embed App Extensions */,
+				A9D037AC91B686C962FB95BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5A00C32263A9A0003FC741 /* Build configuration list for PBXNativeTarget "BlockerExtension" */;
 			buildPhases = (
+				0B0A76F15708C3A32CC22C9E /* [CP] Check Pods Manifest.lock */,
 				ED5A00B52263A9A0003FC741 /* Sources */,
 				ED5A00B62263A9A0003FC741 /* Frameworks */,
 				ED5A00B72263A9A0003FC741 /* Resources */,
@@ -196,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED5A00AE2263A977003FC741 /* LaunchScreen.storyboard in Resources */,
+				ED2B2736226963C9003B91C3 /* hellogoodbye.gif in Resources */,
 				ED5A00AB2263A977003FC741 /* Assets.xcassets in Resources */,
 				ED5A00A92263A976003FC741 /* Main.storyboard in Resources */,
 			);
@@ -210,6 +249,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B0A76F15708C3A32CC22C9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockerExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		567F490BC346626EFBF40E86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloGoodbyeiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D037AC91B686C962FB95BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloGoodbyeiOS/Pods-HelloGoodbyeiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloGoodbyeiOS/Pods-HelloGoodbyeiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED5A009C2263A976003FC741 /* Sources */ = {
@@ -377,6 +473,7 @@
 		};
 		ED5A00B32263A977003FC741 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C351D37FC359286CEC347AEF /* Pods-HelloGoodbyeiOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -396,6 +493,7 @@
 		};
 		ED5A00B42263A977003FC741 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA8ADB6D43F16A9785202EC /* Pods-HelloGoodbyeiOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -415,6 +513,7 @@
 		};
 		ED5A00C42263A9A0003FC741 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC23D214D365880E038D75C /* Pods-BlockerExtension.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_STYLE = Automatic;
@@ -435,6 +534,7 @@
 		};
 		ED5A00C52263A9A0003FC741 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E3680E1A7986DB47F50AA9 /* Pods-BlockerExtension.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_STYLE = Automatic;
