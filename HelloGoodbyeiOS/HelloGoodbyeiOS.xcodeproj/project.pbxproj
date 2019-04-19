@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED2B272D22694D30003B91C3 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = ED2B272C22694D30003B91C3 /* blockerList.json */; };
 		ED5A00A42263A976003FC741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A00A32263A976003FC741 /* AppDelegate.swift */; };
 		ED5A00A62263A976003FC741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A00A52263A976003FC741 /* ViewController.swift */; };
 		ED5A00A92263A976003FC741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5A00A72263A976003FC741 /* Main.storyboard */; };
 		ED5A00AB2263A977003FC741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5A00AA2263A977003FC741 /* Assets.xcassets */; };
 		ED5A00AE2263A977003FC741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5A00AC2263A977003FC741 /* LaunchScreen.storyboard */; };
-		ED5A00BC2263A9A0003FC741 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = ED5A00BB2263A9A0003FC741 /* blockerList.json */; };
 		ED5A00BE2263A9A0003FC741 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A00BD2263A9A0003FC741 /* ContentBlockerRequestHandler.swift */; };
 		ED5A00C22263A9A0003FC741 /* BlockerExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ED5A00B92263A9A0003FC741 /* BlockerExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -42,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED2B272C22694D30003B91C3 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = ../../Safari/BlockerExtension/blockerList.json; sourceTree = "<group>"; };
 		ED5A00A02263A976003FC741 /* HelloGoodbyeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGoodbyeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5A00A32263A976003FC741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED5A00A52263A976003FC741 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		ED5A00AD2263A977003FC741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5A00AF2263A977003FC741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED5A00B92263A9A0003FC741 /* BlockerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BlockerExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED5A00BB2263A9A0003FC741 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		ED5A00BD2263A9A0003FC741 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		ED5A00BF2263A9A0003FC741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +107,7 @@
 		ED5A00BA2263A9A0003FC741 /* BlockerExtension */ = {
 			isa = PBXGroup;
 			children = (
-				ED5A00BB2263A9A0003FC741 /* blockerList.json */,
+				ED2B272C22694D30003B91C3 /* blockerList.json */,
 				ED5A00BD2263A9A0003FC741 /* ContentBlockerRequestHandler.swift */,
 				ED5A00BF2263A9A0003FC741 /* Info.plist */,
 			);
@@ -205,7 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED5A00BC2263A9A0003FC741 /* blockerList.json in Resources */,
+				ED2B272D22694D30003B91C3 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
