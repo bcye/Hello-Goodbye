@@ -49,7 +49,7 @@ Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
 - [x] Pay for Google Submission ($5) 
 - [x] FaaS (Fajar as a service) ($5)
 - [x] Pay for domain ($12)
-- [ ] Pay for yearly Apple Developer membership (needed to develop for safari) ($8/99)
+- [ ] Pay for yearly Apple Developer membership (needed to develop for safari) ($11/99)
 
 ## Supporters
 
@@ -59,6 +59,7 @@ Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
 - Evan
 - Tucker
 - 20i hosting (sponsor for one month)
+- [@sunnysinghio](https://twitter.com/sunnysinghio)
 
 ## Author
 
