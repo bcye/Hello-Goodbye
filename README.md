@@ -60,6 +60,7 @@ Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
 - Tucker
 - 20i hosting (sponsor for one month)
 - [@sunnysinghio](https://twitter.com/sunnysinghio)
+- [Fajar Siddiq](https://twitter.com/fajarsiddiqFS)
 
 ## Author
 
