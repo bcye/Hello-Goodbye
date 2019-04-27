@@ -49,6 +49,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://pi2.movoto.com/1.7.654/javascripts/desktop/movoto.min.js",
                 "*://*.zopim.com/*",
                 "*://cdn.gubagoo.io/*",
-                "*://leadconnect.ipmaxi.se/*"
+                "*://leadconnect.ipmaxi.se/*",
+                "*://static.small.chat/messenger.js"
               ]},
               ["blocking"]);

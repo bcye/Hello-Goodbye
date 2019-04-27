@@ -33,3 +33,4 @@
 ||*.zopim.com/*
 ||cdn.gubagoo.io/* 
 ||leadconnect.ipmaxi.se/*
+||static.small.chat/messenger.js
