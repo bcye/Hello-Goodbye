@@ -50,6 +50,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://*.zopim.com/*",
                 "*://cdn.gubagoo.io/*",
                 "*://leadconnect.ipmaxi.se/*",
-                "*://static.small.chat/messenger.js"
+                "*://static.small.chat/messenger.js",
+                "*://smartsupp-widget-161959.c.cdn77.org/build/smartchat-2.3.20.min.js"
               ]},
               ["blocking"]);
