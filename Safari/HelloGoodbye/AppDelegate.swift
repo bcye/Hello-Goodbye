@@ -20,4 +20,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
     
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        // more reference: https://stackoverflow.com/a/2926356/8126260
+        return true
+    }
 }
