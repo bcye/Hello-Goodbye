@@ -14,6 +14,8 @@ A browser extension to block annoying chat bubbles from Intercom & Co.
 
 ## Contributing
 
+**I am searching for contributors like you! If you are interested check out the pinned issue.**
+
 If you found an error, or a domain is not blocked, please open a pull request with the necessary changes (if possible) or open a new issue.
 
 If you want to add a new feature, please first open an issue to discuss it before starting to work on it.
@@ -43,12 +45,6 @@ Please support the development by donating a cup of coffee.
 
 Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
 
-### Goals
-- [x] Pay for Google Submission ($5) 
-- [x] FaaS (Fajar as a service) ($5)
-- [x] Pay for domain ($12)
-- [ ] Pay for yearly Apple Developer membership (needed to develop for safari) ($11/99)
-
 ## Supporters
 
 **Thank you so much to these awesome people** for buying me a coffee on the donation page.
@@ -60,6 +56,7 @@ Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
 - [@sunnysinghio](https://twitter.com/sunnysinghio)
 - [Fajar Siddiq](https://twitter.com/fajarsiddiqFS)
 - [@josephmxm](https://twitter.com/josephmxm)
+- Stephane
 
 ## Author
 
