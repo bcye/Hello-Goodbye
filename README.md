@@ -14,6 +14,8 @@ A browser extension to block annoying chat bubbles from Intercom & Co.
 
 ## Contributing
 
+[Please join us on our Slack workspace](https://join.slack.com/t/hellogoodbyeextension/shared_invite/enQtNjMwMTY2OTQ5NzYwLWUxYmFkOTU1ZjFhNTNlYjY1YjA3YTJhY2U1YjY5Mzk5NmQ1OWZlZmYwNDNkNWQ4ZGUxNjEwYzM3YjQ1MzA2YWU). We will be happy to discuss things :)
+
 **I am searching for contributors like you! If you are interested check out the pinned issue.**
 
 If you found an error, or a domain is not blocked, please open a pull request with the necessary changes (if possible) or open a new issue.
