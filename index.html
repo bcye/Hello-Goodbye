@@ -25,6 +25,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
+	<link rel="stylesheet" href="modal.css">
 	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 	<style>
 		.center {
@@ -145,7 +146,35 @@
                         <h1 class="hero-title mt-0 is-revealing">Block chat widgets</h1>
                         <p class="hero-paragraph is-revealing">"Hello, Goodbye" blocks chat widgets from Intercom and other providers.</p>
                         <div class="hero-cta is-revealing text-center">
-                            <a class="button button-primary button-shadow" href="download.html">Download for your browser</a>
+							<!-- Trigger -->
+							<button class="button button-primary button-shadow" id="myBtn" href="download.html">Download for your browser</button>
+						</div>
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+							<!-- Modal content -->
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<p>Choose what you pay</p>
+								<small>
+									This browser extension is mostly maintained by only me. <br>
+									Before you download, please consider making a donation to the project. <br>
+									You will help pay for running costs and show that my time is worth something. <br>
+
+									<form method="post" id="payment-form" netlify>
+										<div class="form-row">
+											<div id="card-element">
+												<!-- A Stripe Element will be inserted here. -->
+											</div>
+
+											<!-- Used to display Element errors. -->
+											<div id="card-errors" role="alert"></div>
+										</div>
+
+										<button type="submit" class="submit" style="padding: auto">Donate &#10084;</button>
+									</form>
+									<small><a href="download.html">I do not want to donate. Please take me directly to the download page.</a></small>
+								</small>
+							</div>
 						</div>
                         <div class="hero-browser">
                           <!--
@@ -386,5 +415,7 @@
     </div>
 
 	<script src="dist/js/main.min.js"></script>
+	<script src="https://js.stripe.com/v3/"></script>
+	<script src="donations.js"></script>
 </body>
 </html>
