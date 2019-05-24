@@ -162,15 +162,18 @@
 
 									<form method="post" id="payment-form" netlify>
 										<div class="form-row">
+											<div class="form-row" style="display: inline">
+												<span>I want to donate: US$</span>
+												<input type="number" name="amount" class="amountElement">
+											</div>
 											<div id="card-element">
 												<!-- A Stripe Element will be inserted here. -->
 											</div>
 
 											<!-- Used to display Element errors. -->
 											<div id="card-errors" role="alert"></div>
+											<button type="submit" class="submit" style="padding: auto">Donate &#10084;</button>
 										</div>
-
-										<button type="submit" class="submit" style="padding: auto">Donate &#10084;</button>
 									</form>
 									<small><a href="download.html">I do not want to donate. Please take me directly to the download page.</a></small>
 								</small>

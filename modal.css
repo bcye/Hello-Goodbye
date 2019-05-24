@@ -81,3 +81,13 @@
 	margin: 10px auto;
 }
 
+.amountElement {
+	background-color: white;
+
+	height: 40px;
+	width: 50px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+
+	margin: 10px auto;
+}
