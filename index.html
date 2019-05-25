@@ -159,24 +159,35 @@
 									This browser extension is mostly maintained by only me. <br>
 									Before you download, please consider making a donation to the project. <br>
 									You will help pay for running costs and show that my time is worth something. <br>
-
-									<form method="post" id="payment-form" netlify>
-										<div class="form-row">
-											<div class="form-row" style="display: inline">
-												<span>I want to donate: US$</span>
-												<input type="number" name="amount" class="amountElement">
-											</div>
-											<div id="card-element">
-												<!-- A Stripe Element will be inserted here. -->
-											</div>
-
-											<!-- Used to display Element errors. -->
-											<div id="card-errors" role="alert"></div>
-											<button type="submit" class="submit" style="padding: auto">Donate &#10084;</button>
-										</div>
-									</form>
-									<small><a href="download.html">I do not want to donate. Please take me directly to the download page.</a></small>
 								</small>
+								<!-- Load Stripe.js on your website. -->
+								<script src="https://js.stripe.com/v3"></script>
+
+								<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+								<button
+									class="submit"
+									id="checkout-button-sku_F7jauZru39kVa7"
+									role="link"
+								>
+									Donate US$1 &#10084;
+								</button>
+								<button
+									class="submit"
+									id="checkout-button-sku_F7jcR9UoUyQLuH"
+									role="link"
+								>
+									Donate US$3 &#10084;
+								</button>
+								<button
+									class="submit"
+									id="checkout-button-sku_F83UXxToMdMbWN"
+									role="link"
+								>
+									Donate US$5 &#10084;
+								</button>
+
+								<div id="error-message"></div>
+								<small><a href="download.html">I do not want to donate. Please take me directly to the download page.</a></small>
 							</div>
 						</div>
                         <div class="hero-browser">
@@ -308,26 +319,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-			<section class="cta section">
-                <div class="container-sm">
-                    <div class="cta-inner section-inner">
-                        <div class="cta-content text-center">
-							<img src="https://github.com/bcye/Hello-Goodbye/raw/master/H%400%2C25x.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
-							<span>Help with the server fees and support a 16 year old indie maker</span>
-							<br>
-							<a class="button button-primary button-shadow" href="donate.html">Support Me</a>
-							<br>
-							<br>
-							<span>Another awesome product by an indie maker:</span>
-							<br>
-							<iframe
-								style="border:0;width:320px;height:144px;"
-								src="https://makerads.xyz/ad"
-							></iframe>
-						</div>
                     </div>
                 </div>
             </section>
