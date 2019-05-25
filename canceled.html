@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hello, Goodbye - Browser Extension</title>
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+	<style>
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+		.hero-cta a {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body class="is-boxed">
+<div class="body-wrap boxed-container">
+	<a href="https://github.com/bcye/Hello-Goodbye" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}} .github-corner { z-index: 1; }</style>
+	<header class="site-header">
+		<div class="hero-disk hero-disk-1 is-moving-object is-translating" data-translating-factor="60">
+			<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<linearGradient x1="-1.265%" y1="100%" y2="100%" id="disk-1-a">
+						<stop stop-color="#040404" stop-opacity="0" offset="0%"/>
+						<stop stop-color="#3217BB" offset="100%"/>
+					</linearGradient>
+				</defs>
+				<path d="M846 515c0-165.685 134.315-300 300-300s300 134.315 300 300h-150c0-82.843-67.157-150-150-150s-150 67.157-150 150H846z" transform="translate(-846 -215)" fill="url(#disk-1-a)" fill-rule="evenodd"/>
+			</svg>
+		</div>
+		<div class="hero-disk hero-disk-2 is-moving-object is-translating" data-translating-factor="20">
+			<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<linearGradient x1="0%" y1="100%" y2="100%" id="disk-2-a">
+						<stop stop-color="#040404" stop-opacity="0" offset="0%"/>
+						<stop stop-color="#D15680" offset="100%"/>
+					</linearGradient>
+				</defs>
+				<path d="M1153 63c0 165.685-134.315 300-300 300S553 228.685 553 63h150c0 82.843 67.157 150 150 150s150-67.157 150-150h150z" transform="translate(-553 -63)" fill="url(#disk-2-a)" fill-rule="evenodd"/>
+			</svg>
+		</div>
+		<div class="hero-sphere hero-sphere-1 is-moving-object is-translating" data-translating-factor="10">
+			<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<radialGradient cx="83.479%" cy="86.284%" fx="83.479%" fy="86.284%" r="128.926%" id="sphere-1-a">
+						<stop stop-color="#D15680" offset="0%"/>
+						<stop stop-color="#040404" stop-opacity="0" offset="100%"/>
+					</radialGradient>
+				</defs>
+				<circle cx="1522" cy="447" r="24" transform="translate(-1498 -423)" fill="url(#sphere-1-a)" fill-rule="evenodd"/>
+			</svg>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero text-center" id="start">
+			<div class="hero-disk hero-disk-3 is-moving-object is-translating" data-translating-factor="90">
+				<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<linearGradient x1="100%" y1="100%" x2="-1.265%" y2="100%" id="disk-3-a">
+							<stop stop-color="#040404" stop-opacity="0" offset="0%"/>
+							<stop stop-color="#3217BB" offset="100%"/>
+						</linearGradient>
+					</defs>
+					<path d="M153 492c0-165.685 134.315-300 300-300s300 134.315 300 300H603c0-82.843-67.157-150-150-150s-150 67.157-150 150H153z" transform="translate(-153 -192)" fill="url(#disk-3-a)" fill-rule="evenodd"/>
+				</svg>
+			</div>
+			<div class="hero-disk hero-disk-4 is-moving-object is-translating" data-translating-factor="50">
+				<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<linearGradient x1="0%" y1="100%" y2="100%" id="disk-4-a">
+							<stop stop-color="#040404" stop-opacity="0" offset="0%"/>
+							<stop stop-color="#D15680" offset="100%"/>
+						</linearGradient>
+					</defs>
+					<path d="M817 687c0 165.685-134.315 300-300 300S217 852.685 217 687h150c0 82.843 67.157 150 150 150s150-67.157 150-150h150z" transform="translate(-217 -687)" fill="url(#disk-4-a)" fill-rule="evenodd"/>
+				</svg>
+			</div>
+			<div class="hero-sphere hero-sphere-2 is-moving-object is-translating" data-translating-factor="30">
+				<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<radialGradient cx="83.479%" cy="86.284%" fx="83.479%" fy="86.284%" r="128.926%" id="sphere-2-a">
+							<stop stop-color="#3217BB" offset="0%"/>
+							<stop stop-color="#040404" stop-opacity="0" offset="100%"/>
+						</radialGradient>
+					</defs>
+					<circle cx="251" cy="433" r="16" transform="translate(-235 -417)" fill="url(#sphere-2-a)" fill-rule="evenodd"/>
+				</svg>
+			</div>
+			<div class="container-sm">
+				<div class="hero-inner">
+					<h1 class="hero-title mt-0 is-revealing">Oops, that didn't work.</h1>
+					<p class="hero-paragraph is-revealing">Thank you so much for donating. Unfortunately your donation could not be processed. Do you want to try again, or download the extension now?</p>
+					<div class="hero-cta is-revealing text-center">
+						<a class="button button-primary button-shadow" href="index.html">Try again</a>
+						<span> or </span>
+						<a class="button button-primary button-shadow" href="download.html">Download</a>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container">
+			<div class="site-footer-inner has-top-divider">
+				<div class="brand footer-brand">
+					<a href="#">
+						<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+							<title>Florence</title>
+							<defs>
+								<linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="logo-footer-a">
+									<stop stop-color="#FFF" stop-opacity=".48" offset="0%"/>
+									<stop stop-color="#FFF" offset="100%"/>
+								</linearGradient>
+								<linearGradient x1="21.021%" y1="8.197%" y2="50%" id="logo-footer-b">
+									<stop stop-color="#3217BB" offset="0%"/>
+									<stop stop-color="#D15680" offset="100%"/>
+								</linearGradient>
+							</defs>
+							<g fill="none" fill-rule="evenodd">
+								<path d="M16 8h6a2 2 0 0 1 2 2v6h-6a2 2 0 0 1-2-2V8z" fill="url(#logo-footer-a)"/>
+								<path d="M16 0v8a8 8 0 1 0 8 8h8c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0z" fill="url(#logo-footer-b)"/>
+							</g>
+						</svg>
+					</a>
+				</div>
+				<ul class="footer-links list-reset">
+					<li>
+						<a href="https://privacypolicytemplate.net/live.php?token=5ME5vnORxGYT8crhJfFeHKLaHoiOVVTG">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="mailto:hello@hellogoodbye.app">Contact</a>
+					</li>
+					<li>
+						<a href="https://buymeacoff.ee/bruceroet">buymeacoffee</a>
+					</li>
+				</ul>
+				<ul class="footer-social-links list-reset">
+					<li>
+						<a href="https://twitter.com/bcye_tw">
+							<span class="screen-reader-text">Twitter</span>
+							<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFFFFF"/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+				<div class="footer-copyright">&copy; 2019 Bruce Röttgers, all rights reserved</div>
+			</div>
+		</div>
+		</footer>
+</div>
+
+<script src="dist/js/main.min.js"></script>
+</body>
+</html>
+
