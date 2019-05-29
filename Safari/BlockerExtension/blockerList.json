@@ -187,5 +187,14 @@
         "action": {
             "type": "block"
         }
+    },
+    {
+        "trigger": {
+            "url-filter": "plugins.help.com",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
     }
 ]
