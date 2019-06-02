@@ -1,4 +1,4 @@
-# Florence
+# Blue
 
 A landing page template.
 

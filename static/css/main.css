@@ -1,0 +1,40 @@
+/* CSS GRID */
+
+.start {
+  display: grid;
+  grid-template-areas:
+    " logo | . | nav | nav"
+    " title | title | video | video"
+    " featured | featured | featured | featured";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+#logo {
+  grid-area: logo;
+}
+
+nav {
+  grid-area: nav;
+}
+
+header {
+  grid-area: title;
+}
+
+.featured {
+  grid-area: featured;
+}
+
+/* NAVIGATION */
+
+nav ul {
+  display: inline;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}

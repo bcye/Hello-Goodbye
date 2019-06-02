@@ -1,5 +1,5 @@
 .is-boxed {
-    background: lighten(color(bg, 1), 8%);
+    background: color(bg, 2);
 }
 
 .body-wrap {
@@ -30,7 +30,7 @@ main {
 @include media( '>medium' ) {
 
     .section-inner {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 88px;
+        padding-bottom: 88px;
     }
 }

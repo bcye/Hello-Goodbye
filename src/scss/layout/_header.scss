@@ -3,6 +3,12 @@
     padding: 24px 0;
 }
 
+.header-sun {
+	position: absolute;
+	top: -88px;
+	right: -60px;
+}
+
 .site-header-inner {
     position: relative; /* To display all elements above the background color */
     display: flex;
@@ -29,4 +35,20 @@
         line-height: 16px;
         padding: 8px 24px;
     }
+}
+
+@include media( '>medium' ) {
+
+	.header-sun {
+		left: 440px;
+		right: auto;
+	}
+}
+
+@include media( '>large' ) {
+
+	.header-sun {
+		left: auto;
+		right: 43%;
+	}
 }

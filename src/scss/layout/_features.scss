@@ -1,30 +1,37 @@
+.features-header {
+	margin-bottom: 32px;
+}
+
 .features-wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-right: -12px;
     margin-left: -12px;
+	margin-top: -12px;
 
-    &:first-child {
-        margin-top: -8px;
-    }
+	&:last-of-type {
+		margin-bottom: -12px;
+	}
 
-    &:last-child {
-        margin-bottom: -8px;
+    &:not(:last-of-type) {
+        margin-bottom: 12px;
     }
 }
 
 .feature {
-    padding: 8px 12px;
-    width: 344px;
-    max-width: 344px;
+    padding: 12px;
+    width: 276px;
+    max-width: 276px;
     flex-grow: 1;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .feature-inner {
+    position: relative;
     height: 100%;
+    background: color(bg, 1);
+    padding: 40px 24px;
+	@include shadow;
 }
 
 .feature-icon {
@@ -34,18 +41,15 @@
 
 @include media( '>medium' ) {
 
-    .features-wrap {
+    .features {
 
-        &:first-child {
-            margin-top: -32px;
-        }
-
-        &:last-child {
-            margin-bottom: -32px;
+		.section-paragraph {
+            padding-left: 72px;
+            padding-right: 72px;
         }
     }
 
-    .feature {
-        padding: 32px 12px;
-    }
+	.features-header {
+		margin-bottom: 64px;
+	}
 }

@@ -50,14 +50,13 @@
 	    }
 	    @include font-weight(bold);
 	    line-height: 16px;
-	    text-transform: uppercase;
 	    text-decoration: none;
 	    background-color: color(bg, 1);
 	    color: color(primary, 1) !important;
 	    border: none;
 		height: auto;
 		left: 8px;
-		padding: 16px 40px;
+		padding: 16px 32px;
 		top: 8px;
 		width: auto;
 		z-index: 100000;

@@ -29,44 +29,48 @@
 // Anchor aspect
 @mixin anchor-aspect($type: 'main') {
 	@if ($type == 'main') { // Base
-		color: inherit;
-		text-decoration: underline;
+		color: color(primary, 1);
+		text-decoration: none;
 
 		&:hover,
 		&:active {
 			outline: 0;
-			text-decoration: none;
+			text-decoration: underline;
 		}
 	} @else if ($type == 'header') {
-		color: color(typography, 2);
+		color: color(typography, 2i);
 		text-transform: uppercase;
 		text-decoration: none;
 
 		&:hover,
 		&:active {
-			color: color(typography, 1);
+			color: color(typography, 1i);
 		}
 	} @else if ($type == 'footer') {
-		color: color(typography, 2);
+		color: color(typography, 3);
 		text-decoration: none;
 
 		&:hover,
 		&:active {
-			color: color(typography, 1);
+			color: color(typography, 1i);
 			text-decoration: underline;
 		}
 	}
 }
 
 @mixin shadow {
-	box-shadow: 0 16px 48px rgba(color(bg, 1), .5);
+	box-shadow: 0 16px 48px rgba(color(typography, 1), .12);
+}
+
+@mixin shadow-sm {
+	box-shadow: 0 16px 24px rgba(color(typography, 1), .12);
 }
 
 @mixin divider-mix {
 	display: block;
 	height: 1px;
 	background: color(bg, 3);
-	background: linear-gradient(to right, rgba(color(bg, 3), .24) 0, rgba(color(bg, 3), 1) 50%, rgba(color(bg, 3), .24) 100%);
+	background: linear-gradient(to right, rgba(color(bg, 3), .1) 0, rgba(color(bg, 3), .6) 50%, rgba(color(bg, 3), .1) 100%);
 }
 
 @mixin divider($type: false) {

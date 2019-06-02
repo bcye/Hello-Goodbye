@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6,
 	@if ( get-font-family(heading) != get-font-family(base) ) {
 		@include font-family(heading);
 	}
-	@include font-weight(semibold);
+	@include font-weight(bold);
 }
 
 h1,
@@ -112,7 +112,7 @@ h6,
 
 	h1, h2, h3, h4, h5, h6,
 	.h1, .h2, .h3, .h4, .h5, .h6 {
-		color: color(typography, 1) !important;
+		color: color(typography, 1i) !important;
 	}
 }
 
