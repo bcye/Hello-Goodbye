@@ -222,9 +222,11 @@ Next: Chat pop-up blockers. <br>
 											</ul>
 										</div>
 										<div class="pricing-table-cta">
-											<button class="button button-secondary button-shadow button-block">Pay Now</a>
+											<button class="button button-secondary button-shadow button-block" id="checkout-button-sku_F7jauZru39kVa7" role="link">Pay Now</a>
 										</div>
-                    <small style="font-size: 7px;" class="text-center"><a href="#">Nah, I don't care about you or your time. Take me directly to the download page.</a></small>
+                    <small style="font-size: 7px;" class="text-center"><a href="#">No, I don't care about you or your time. Take me directly to the download page.</a></small>
+
+                    <div id="error-message"></div>
 
 									</div>
 								</div>
@@ -281,5 +283,34 @@ Next: Chat pop-up blockers. <br>
     </div>
 
     <script src="dist/js/main.min.js"></script>
+
+    <script>
+      var stripe = Stripe('pk_live_e1426vA2ut4JcUtvhqde23Mu00WNjsII3R');
+
+      var checkoutButton = document.getElementById('checkout-button-sku_F7jauZru39kVa7');
+      checkoutButton.addEventListener('click', function () {
+        // When the customer clicks on the button, redirect
+        // them to Checkout.
+        stripe.redirectToCheckout({
+          items: [{sku: 'sku_F7jauZru39kVa7', quantity: 1}],
+
+          // Do not rely on the redirect to the successUrl for fulfilling
+          // purchases, customers may not always reach the success_url after
+          // a successful payment.
+          // Instead use one of the strategies described in
+          // https://stripe.com/docs/payments/checkout/fulfillment
+          successUrl: 'https://hellogoodbye.app/download',
+          cancelUrl: 'https://hellogoodbye.app/canceled',
+        })
+        .then(function (result) {
+          if (result.error) {
+            // If `redirectToCheckout` fails due to a browser or network
+            // error, display the localized error message to your customer.
+            var displayError = document.getElementById('error-message');
+            displayError.textContent = result.error.message;
+          }
+        });
+      });
+    </script>
 </body>
 </html>
