@@ -10,24 +10,12 @@
             <h1>Thank you for installing Hello, Goodbye.</h1>
 <p>Please read this short introduction on how to use the extension.</p>
 <br>
-<h2>Sign up to the monthly newsletter</h2>
-<p>I will send you an email once a month about the progress and what new features are being developed for Hello, Goodbye.</p>
-<p>I will also send you irregular emails about new announcements.</p>
-<p>I will not send spam.</p>
-<iframe
-scrolling="no"
-style="width:100%!important;height:220px;border:1px #ccc solid !important"
-src="https://buttondown.email/hellogoodbye?as_embed=true"
-></iframe>
-<small>If the form did not load, you can alternatively <a href="https://buttondown.email/hellogoodbye">sign up here.</a></small>
-<p><br></p>
 <h2>Support the extension</h2>
 <blockquote>
 <p>You’re the product, if you’re not paying for it.</p>
 </blockquote>
 <p>Please support me, so I can continue respecting your privacy and developing awesome extension apps and features.</p>
 <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
 
 <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
 <button
@@ -40,34 +28,18 @@ src="https://buttondown.email/hellogoodbye?as_embed=true"
 
 <div id="error-message"></div>
 
-<script>
-  var stripe = Stripe('pk_live_e1426vA2ut4JcUtvhqde23Mu00WNjsII3R');
-
-  var checkoutButton = document.getElementById('checkout-button-sku_F7jauZru39kVa7');
-  checkoutButton.addEventListener('click', function () {
-    // When the customer clicks on the button, redirect
-    // them to Checkout.
-    stripe.redirectToCheckout({
-      items: [{sku: 'sku_F7jauZru39kVa7', quantity: 1}],
-
-      // Do not rely on the redirect to the successUrl for fulfilling
-      // purchases, customers may not always reach the success_url after
-      // a successful payment.
-      // Instead use one of the strategies described in
-      // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: 'https://hellogoodbye.app/download',
-      cancelUrl: 'https://hellogoodbye.app/canceled',
-    })
-    .then(function (result) {
-      if (result.error) {
-        // If `redirectToCheckout` fails due to a browser or network
-        // error, display the localized error message to your customer.
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
-    });
-  });
-</script><br>
+<br>
+<h2>Sign up to the monthly newsletter</h2>
+<p>I will send you an email once a month about the progress and what new features are being developed for Hello, Goodbye.</p>
+<p>I will also send you irregular emails about new announcements.</p>
+<p>I will not send spam.</p>
+<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.email/hellogoodbye?as_embed=true"
+></iframe>
+<small>If the form did not load, you can alternatively <a href="https://buttondown.email/hellogoodbye">sign up here.</a></small>
+<p><br></p>
 <h3>If you do need access to a chat widget:</h3>
 <p>If the extension blocked a widget, it will show a <code class='code-inline'>HELP</code> badge to indicate this.</p>
 <p>You can always click on the icon and temporarily disable the extension to access the chat widget.</p>
@@ -76,6 +48,35 @@ src="https://buttondown.email/hellogoodbye?as_embed=true"
 <p>You can always contact me at <a href="mailto:br.apps@icloud.com">br.apps@icloud.com</a> and if the time zones align you’ll get a quick response.</p>
 
         </div>
+        <script src="https://js.stripe.com/v3"></script>
+        <script>
+          var stripe = Stripe('pk_live_e1426vA2ut4JcUtvhqde23Mu00WNjsII3R');
+
+          var checkoutButton = document.getElementById('checkout-button-sku_F7jauZru39kVa7');
+          checkoutButton.addEventListener('click', function () {
+            // When the customer clicks on the button, redirect
+            // them to Checkout.
+            stripe.redirectToCheckout({
+              items: [{sku: 'sku_F7jauZru39kVa7', quantity: 1}],
+
+              // Do not rely on the redirect to the successUrl for fulfilling
+              // purchases, customers may not always reach the success_url after
+              // a successful payment.
+              // Instead use one of the strategies described in
+              // https://stripe.com/docs/payments/checkout/fulfillment
+              successUrl: 'https://hellogoodbye.app/download',
+              cancelUrl: 'https://hellogoodbye.app/canceled',
+            })
+            .then(function (result) {
+              if (result.error) {
+                // If `redirectToCheckout` fails due to a browser or network
+                // error, display the localized error message to your customer.
+                var displayError = document.getElementById('error-message');
+                displayError.textContent = result.error.message;
+              }
+            });
+          });
+        </script>
         <script type="text/javascript">
             (function() {
 
