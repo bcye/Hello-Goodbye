@@ -8,7 +8,7 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
       console.log(storageChange);
       isDisabled = storageChange;
       console.log(isDisabled);
-    } 
+    }
   }
 });
 
@@ -55,3 +55,13 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://plugins.help.com/*"
               ]},
               ["blocking"]);
+
+              chrome.runtime.onInstalled.addListener(function() {
+
+                chrome.tabs.create({
+                  url: 'https://hellogoodbye.app/postinstall.html',
+                  active: true
+                });
+
+                return false;
+              });
