@@ -71,7 +71,8 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
                         "*://consent-manager.metomic.io/embed.js",
                         "*://cdn.jsdelivr.net/npm/cookie-bar/*",
                         "*://*.PrivacyPolicies.com/cookie-consent/*",
-                        "*://cdn.jsdelivr.net/npm/cookieconsent@3/*"
+                        "*://cdn.jsdelivr.net/npm/cookieconsent@3/*",
+                        "*://cdn.ziffstatic.com/jst/eu/zdconsent.js"
                       ]},
                       ["blocking"]);
                      }
