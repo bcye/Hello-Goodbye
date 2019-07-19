@@ -42,28 +42,17 @@ chrome.storage.sync.get('disabled', function(value) {
   document.getElementById('enable-btn').addEventListener('click', enableExtension);
 });
 
-// check if user has paid
-chrome.storage.sync.get('verified', function(value) {
-  if (value.verified) {
-    document.getElementById('app').style.display = 'inline-block';
-    document.getElementById('payment-form').style.display = 'none';
-  } else {
-    document.getElementById('app').style.display = 'none';
-    document.getElementById('payment-form').style.display = 'inline-block';
+chrome.storage.onChanged.addListener(function(changes, namespace) {
+  for (var key in changes) {
+    var storageChange = changes[key].newValue;
+    if (key === 'verified') {
+      if (storageChange) {
+        document.getElementById('app').style.display = 'inline-block';
+        document.getElementById('payment-form').style.display = 'none';
+      } else {
+        document.getElementById('app').style.display = 'none';
+        document.getElementById('payment-form').style.display = 'inline-block';
+      }
+    }
   }
 });
-console.log(document.getElementById('disable-btn'));
-
-// verify customer
-function verifyCustomer() {
-  var http = new XMLHttpRequest();
-  var data = new FormData();
-  data.append('email', document.getElementById('email').innerText)
-  // insert real link in here
-  http.open('POST', 'http://127.0.0.1:5000/verify_customer');
-  http.send(data);
-
-  Http.onreadystatechange = (e) => {
-    alert(Http.responseCode);
-  }
-}
