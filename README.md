@@ -41,11 +41,9 @@ To get the development started:
 
 ![Buy me a coffee picture](https://github.com/bcye/Hello-Goodbye/raw/master/H%400%2C25x.png)
 
-Please support the development by donating a cup of coffee.
+Please consider giving back what you think this extension is worth.
 
-<a href="https://www.buymeacoffee.com/bruceroet" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-Or [Donate with PayPal](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
+[Donate](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
 
 ## Supporters
 
