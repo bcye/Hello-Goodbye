@@ -23,7 +23,7 @@ To get the development started:
 
 Please consider giving back what you think this extension is worth.
 
-[Donate](https://paypal.me/DirkHulverscheidt?locale.x=de_DE)
+[Donate](https://www.buymeacoffee.com/bruceroet)
 
 ## Supporters
 
