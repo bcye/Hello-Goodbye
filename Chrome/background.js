@@ -72,14 +72,15 @@ chrome.webRequest.onBeforeRequest.addListener(
     "*://cdn.componentator.com/spa.min*",
   ]},
   ["blocking"]);
-/*
-              chrome.runtime.onInstalled.addListener(function() {
 
-                chrome.tabs.create({
-                  url: 'https://hellogoodbye.app/postinstall.html',
-                  active: true
-                });
+  chrome.runtime.onInstalled.addListener(function(details) {
 
-                return false;
-              });
-*/
+    if (details.reason === "install" || details.reason === "update") {
+      chrome.tabs.create({
+        url: 'https://hellogoodbye.app/postinstall.html',
+        active: true
+      });
+    }
+
+    return false;
+  });

@@ -196,5 +196,132 @@
         "action": {
             "type": "block"
         }
-    }
+    },
+    {
+        "trigger": {
+            "url-filter": "js.gs-chat.com",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "widget.customerly.io",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "consent-manager.metomic.io/embed.js",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": ".PrivacyPolicies.com/cookie-consent",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "cdn.jsdelivr.net/npm/cookie-bar/",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "cdn.ziffstatic.com/jst/./zdconsent.js",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "cdn.jsdelivr.net/npm/cookieconsent@3/",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "/js/xf/notice.min.js?.",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "./wp/wp-content/themes/v3ct/lib/cookies.min.js",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "./wp/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?.
+",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "consent.truste.com",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": ".quantserve.com/.",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": ".consensu.org/",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "cdn.componentator.com/spa.min",
+            "resource-type": ["script"]
+        },
+        "action": {
+            "type": "block"
+        }
+    },    
 ]
