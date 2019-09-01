@@ -69,7 +69,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     "*://consent.truste.com/*",
     "*://*.quantserve.com/*",
     "*://*.consensu.org/*",
-    "*://cdn.componentator.com/spa.min*",
+    "*://cdn.componentator.com/spa.min*"
   ]},
   ["blocking"]);
 

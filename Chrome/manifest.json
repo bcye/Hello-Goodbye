@@ -1,7 +1,7 @@
 {
-  "name": "Hello, Goodbye! - Chat popup blocker",
-  "version": "1.2.1",
-  "description": "Block chat popups",
+  "name": "Hello, Goodbye",
+  "version": "1.3",
+  "description": "Hello, Goodbye blocks annoying chat widgets and cookie banners to make your internet a little bit better.",
   "icons": {
     "32": "icons/HGB@0,25x.png",
     "64": "icons/HGB@0,5x.png",
@@ -14,8 +14,7 @@
     "storage",
     "webRequest",
     "webRequestBlocking",
-    "*://*/*",
-    "activeTab"
+    "*://*/*"
   ],
   "background": {
       "scripts": ["background.js"],
