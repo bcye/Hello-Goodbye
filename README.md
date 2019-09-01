@@ -1,23 +1,11 @@
-![Comparison](https://github.com/bcye/Hello-Goodbye/raw/master/photoshop/Exports/promotional.jpg)
-
 # Hello-Goodbye
 
 A browser extension that blocks chat widgets and cookie banners. Available for Chrome, Firefox and Safari.
 
 [Visit website](https://hellogoodbye.app/?ref=github_readme)
+[Download](https://hellogoodbye.app/?ref=github_readme)
 
-## Installing
-
-To get the development started:
-1. Open Chrome and visit the [extensions page](chrome://extensions).
-2. Activate developer mode so you can load unpacked extensions.
-3. Press Load Unpacked
-4. Select the Chrome folder in this repo
-
-- When you make changes make sure to click refresh to see them.
-- Errors stay until you click Clear. (They won't go away when you refresh)
-
-## Support this project
+## Support
 
 Do you like this project? You can give back: [Buy me a coffee](https://www.buymeacoffee.com/bruceroet)
 
@@ -37,3 +25,4 @@ Thank you to these awesome people for supporting this project.
 ## Author
 
 [Bruce Roettgers](https://bruceroettgers.me)
+[Contact](mailto:hello@hellogoodbye.app)
