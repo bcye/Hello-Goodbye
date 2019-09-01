@@ -19,11 +19,7 @@ To get the development started:
 
 ## Support this project
 
-![Buy me a coffee picture](https://github.com/bcye/Hello-Goodbye/raw/master/H%400%2C25x.png)
-
-Please consider giving back what you think this extension is worth.
-
-[Donate](https://www.buymeacoffee.com/bruceroet)
+Do you like this project? You can give back: [Buy me a coffee](https://www.buymeacoffee.com/bruceroet)
 
 ## Supporters
 
