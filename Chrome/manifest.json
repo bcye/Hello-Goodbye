@@ -7,9 +7,6 @@
     "64": "icons/HGB@0,5x.png",
     "128": "icons/HGB.png"
   },
-  "externally_connectable": {
-    "matches": ["*://hellogoodbye.app/*"]
-  },
   "permissions": [
     "storage",
     "webRequest",
