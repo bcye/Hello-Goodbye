@@ -1,3 +1,4 @@
+// check if extension is enabled or disabled
 chrome.storage.sync.get('disabled', function(value) {
   if (value.disabled) {
     hideButton('disable-btn');
@@ -39,4 +40,19 @@ chrome.storage.sync.get('disabled', function(value) {
     });
   }
   document.getElementById('enable-btn').addEventListener('click', enableExtension);
+});
+
+chrome.storage.onChanged.addListener(function(changes, namespace) {
+  for (var key in changes) {
+    var storageChange = changes[key].newValue;
+    if (key === 'verified') {
+      if (storageChange) {
+        document.getElementById('app').style.display = 'inline-block';
+        document.getElementById('payment-form').style.display = 'none';
+      } else {
+        document.getElementById('app').style.display = 'none';
+        document.getElementById('payment-form').style.display = 'inline-block';
+      }
+    }
+  }
 });
