@@ -1,82 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello, Goodbye</title>
+        <title>Hello, Goodbye was updated</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <div class="note-wrapper">
-            <h1>Thank you for installing Hello, Goodbye.</h1>
-<p>Please read this short introduction on how to use the extension.</p>
+            <h1>Hello, Goodbye was updated</h1>
+            <div id="codefund"><!-- fallback content --></div>
+            <script src="https://codefund.io/properties/433/funder.js" async="async"></script>
+<h2>What’s new?</h2>
+<p>🛑 Hello, Goodbye now <b>blocks annoying cookie banners</b></p>
+<p>🛑 Hello, Goodbye blocks more chat widgets</p>
+<p>✅ A better interface</p>
 <br>
-<h2>Support the extension</h2>
-<blockquote>
-<p>You’re the product, if you’re not paying for it.</p>
-</blockquote>
-<p>Please support me, so I can continue respecting your privacy and developing awesome extension apps and features.</p>
-<!-- Load Stripe.js on your website. -->
-
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  id="checkout-button-sku_F7jauZru39kVa7"
-  role="link"
->
-  Support Me
-</button>
-
-<div id="error-message"></div>
-
+<h2>Stay in the know</h2>
+<p>✅ Stay updated, (~1 email per update)</p>
+<p>✅ I’m not going to spam you with more emails.</p>
+<p><a href="https://buttondown.email/hellogoodbye">Sign up for the newsletter here.</a></p>
 <br>
-<h2>Sign up to the monthly newsletter</h2>
-<p>I will send you an email once a month about the progress and what new features are being developed for Hello, Goodbye.</p>
-<p>I will also send you irregular emails about new announcements.</p>
-<p>I will not send spam.</p>
-<iframe
-scrolling="no"
-style="width:100%!important;height:220px;border:1px #ccc solid !important"
-src="https://buttondown.email/hellogoodbye?as_embed=true"
-></iframe>
-<small>If the form did not load, you can alternatively <a href="https://buttondown.email/hellogoodbye">sign up here.</a></small>
-<p><br></p>
-<h3>If you do need access to a chat widget:</h3>
+<h2>Like Hello, Goodbye?</h2>
+<p>Show your support by rating Hello, Goodbye for <a href="https://chrome.google.com/webstore/detail/hello-goodbye-chat-popup/nihpfpbibfgpgnfpbfedkdokihggapoi">Chrome</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/hello-goodbye">Firefox</a></p>
+<br>
+<p>If you really like Hello, Goodbye you can tip me <a href="https://www.buymeacoffee.com/bruceroet">here</a></p>
+<br>
+<h2>FAQ</h2>
+<h4>What if I need to access a chat widget?</h4>
 <p>If the extension blocked a widget, it will show a <code class='code-inline'>HELP</code> badge to indicate this.</p>
 <p>You can always click on the icon and temporarily disable the extension to access the chat widget.</p>
 <br>
-<h3>If you need help with the extension:</h3>
-<p>You can always contact me at <a href="mailto:br.apps@icloud.com">br.apps@icloud.com</a> and if the time zones align you’ll get a quick response.</p>
-
+<h4>I have another inquiry</h4>
+<p>Please contact me at <a href="mailto:hello@hellogoodbye.app">hello@hellogoodbye.app</a> or on Twitter <a href="https://twitter.com/bcye_tw">@bcye_tw</a> and we will be in touch.</p>
+<br>
         </div>
-        <script src="https://js.stripe.com/v3"></script>
-        <script>
-          var stripe = Stripe('pk_live_e1426vA2ut4JcUtvhqde23Mu00WNjsII3R');
-
-          var checkoutButton = document.getElementById('checkout-button-sku_F7jauZru39kVa7');
-          checkoutButton.addEventListener('click', function () {
-            // When the customer clicks on the button, redirect
-            // them to Checkout.
-            stripe.redirectToCheckout({
-              items: [{sku: 'sku_F7jauZru39kVa7', quantity: 1}],
-
-              // Do not rely on the redirect to the successUrl for fulfilling
-              // purchases, customers may not always reach the success_url after
-              // a successful payment.
-              // Instead use one of the strategies described in
-              // https://stripe.com/docs/payments/checkout/fulfillment
-              successUrl: 'https://hellogoodbye.app/download',
-              cancelUrl: 'https://hellogoodbye.app/canceled',
-            })
-            .then(function (result) {
-              if (result.error) {
-                // If `redirectToCheckout` fails due to a browser or network
-                // error, display the localized error message to your customer.
-                var displayError = document.getElementById('error-message');
-                displayError.textContent = result.error.message;
-              }
-            });
-          });
-        </script>
         <script type="text/javascript">
             (function() {
 
