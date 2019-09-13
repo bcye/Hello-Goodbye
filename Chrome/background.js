@@ -70,6 +70,9 @@ chrome.webRequest.onBeforeRequest.addListener(
     "*://*.quantserve.com/*",
     "*://*.consensu.org/*",
     "*://cdn.componentator.com/spa.min*"
+
+    // other annoyances
+    "*://static.notifia.io/widget.js"
   ]},
   ["blocking"]);
 
