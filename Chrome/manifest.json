@@ -20,5 +20,6 @@
   "browser_action": {
     "default_popup": "popup.html"
   },
+  "content_security_policy": "script-src 'self' https://kit.fontawesome.com/8dd45f0b3d.js; object-src 'self'",
   "manifest_version": 2
 }

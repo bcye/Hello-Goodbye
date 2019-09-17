@@ -69,14 +69,20 @@ chrome.webRequest.onBeforeRequest.addListener(
     "*://consent.truste.com/*",
     "*://*.quantserve.com/*",
     "*://*.consensu.org/*",
-    "*://cdn.componentator.com/spa.min*"
+    "*://cdn.componentator.com/spa.min*",
 
-    // other annoyances
-    "*://static.notifia.io/widget.js"
+    // someone from x just bought y widgets
+    "*://static.notifia.io/widget.js",
+    "*://cdn.useproof.com/proof.js?*",
+    "*://cdn.provesrc.com/provesrc.js",
+    "*://s3.amazonaws.com/provely-public/w/provely-2.0.js",
+    "*://load.fomo.com/*",
+    "*://pixel.convertize.io/*"
   ]},
-  ["blocking"]);
+  ["blocking"]
+);
 
-  chrome.runtime.onInstalled.addListener(function(details) {
+  /*chrome.runtime.onInstalled.addListener(function(details) {
 
     if (details.reason === "install" || details.reason === "update") {
       chrome.tabs.create({
@@ -86,4 +92,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     }
 
     return false;
-  });
+  });*/
+
+  chrome.runtime.setUninstallURL("https://bruce160.typeform.com/to/xKhWiT");
+  
