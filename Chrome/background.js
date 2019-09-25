@@ -54,30 +54,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     "*://plugins.help.com/*",
     "*://js.gs-chat.com/*",
     "*://widget.customerly.io/*",
-    "*://beacon-v2.helpscout.net/"
-
-    // block consent banners
-    "*://consent-manager.metomic.io/embed.js",
-    "*://cdn.jsdelivr.net/npm/cookie-bar/*",
-    "*://*.PrivacyPolicies.com/cookie-consent/*",
-    "*://cdn.jsdelivr.net/npm/cookieconsent@3/*",
-    "*://cdn.ziffstatic.com/jst/*/zdconsent.js",
-    "*://guce.yahoo.com/*",
-    "*://*/js/xf/notice.min.js?*",
-    "*://*/wp/wp-content/themes/v3ct/lib/cookies.min.js",
-    "*://*/wp/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?*",
-    "*://consent.truste.com/*",
-    "*://*.quantserve.com/*",
-    "*://*.consensu.org/*",
-    "*://cdn.componentator.com/spa.min*",
-
-    // someone from x just bought y widgets
-    "*://static.notifia.io/widget.js",
-    "*://cdn.useproof.com/proof.js?*",
-    "*://cdn.provesrc.com/provesrc.js",
-    "*://s3.amazonaws.com/provely-public/w/provely-2.0.js",
-    "*://load.fomo.com/*",
-    "*://pixel.convertize.io/*"
+    "*://beacon-v2.helpscout.net/",
   ]},
   ["blocking"]
 );
