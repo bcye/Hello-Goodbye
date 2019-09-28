@@ -59,17 +59,17 @@ chrome.webRequest.onBeforeRequest.addListener(
   ["blocking"]
 );
 
-  /*chrome.runtime.onInstalled.addListener(function(details) {
+  chrome.runtime.onInstalled.addListener(function(details) {
 
     if (details.reason === "install" || details.reason === "update") {
       chrome.tabs.create({
-        url: 'https://hellogoodbye.app/postinstall.html',
+        url: 'https://r.hellogoodbye.app/postinstall',
         active: true
       });
     }
 
     return false;
-  });*/
+  });
 
-  chrome.runtime.setUninstallURL("https://bruce160.typeform.com/to/xKhWiT");
+  chrome.runtime.setUninstallURL("https://r.hellogoodbye.app/uninstall");
   
