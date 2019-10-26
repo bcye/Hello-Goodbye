@@ -25,9 +25,11 @@ Fork the repository and follow the installation instructions below on how to get
 When you're done open a pull request to the "dev" branch.
 
 ## Installation
+
 If you just want to install the extension, please [download it here](https://hellogoodbye.app/?ref=github.com). If you want to contribute to the extension, please follow these instructions.
 
 1. Clone this repository
+2. `npm install` (this is to automatically apply code formatting before you commit)
 
 ### On Chrome
 
@@ -51,15 +53,15 @@ You will need to re-zip the contents of the "Chrome" folder, after you made chan
 
 Thank you to everyone supporting me by contributing to this repository or buying me a chai tea on [Buy me a coffee](https://buymeacoff.ee/bruceroet):
 
-* @CohanRobinson
-* Buy me a coffee Crew
-* @josephmxm
-* Stéphane
-* Sunny Singh
-* Tucker
-* @troyd
-* Evan
-* Fajar Siddiq
+- @CohanRobinson
+- Buy me a coffee Crew
+- @josephmxm
+- Stéphane
+- Sunny Singh
+- Tucker
+- @troyd
+- Evan
+- Fajar Siddiq
 
 ## Author
 
