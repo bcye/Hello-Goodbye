@@ -1,0 +1,27 @@
+{
+  "name": "Hello-Goodbye",
+  "version": "1.0.0",
+  "description": "A browser extension that blocks annoying chat widgets.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcye/Hello-Goodbye.git"
+  },
+  "keywords": [],
+  "author": "Bruce Roettgers",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bcye/Hello-Goodbye/issues"
+  },
+  "homepage": "https://github.com/bcye/Hello-Goodbye#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  },
+  "devDependencies": {
+    "husky": "^3.0.9",
+    "precise-commits": "^1.0.2",
+    "prettier": "1.18.2"
+  }
+}
