@@ -7,7 +7,8 @@ A browser extension that blocks annoying chat widgets ([example: intercom](https
 ## Support
 
 Do you like this project?
-<a href="https://www.buymeacoffee.com/bruceroet" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+
+You can choose to donate on [Buy me a coffee](https://www.buymeacoffee.com/bruceroet)
 
 ## Contributing
 
