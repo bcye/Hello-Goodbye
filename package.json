@@ -2,7 +2,9 @@
   "name": "hello-goodbye",
   "version": "1.0.0",
   "description": "A browser extension that blocks annoying chat widgets.",
-  "scripts": {},
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint Chrome"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bcye/Hello-Goodbye.git"

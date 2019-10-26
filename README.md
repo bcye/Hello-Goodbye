@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bcye/Hello-Goodbye.svg?branch=master)](https://travis-ci.org/bcye/Hello-Goodbye)
+
 # Hello, Goodbye
 
 A browser extension that blocks annoying chat widgets ([example: intercom](https://intercom.com)). Available for Chrome, Firefox and Safari and as a blocklist to integrate into existing blockers.
