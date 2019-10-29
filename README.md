@@ -24,7 +24,7 @@ Thank you for contributing to the extension.
 
 Please wait for me to approve your issue or request, before beginning work.
 Fork the repository and follow the installation instructions below on how to get the extension running on your machine.
-When you're done open a pull request.
+When you're done open a pull request to the dev branch.
 
 ## Installation
 
