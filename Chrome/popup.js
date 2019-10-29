@@ -24,6 +24,7 @@ chrome.storage.sync.get("disabled", function(value) {
         showButton("disable-btn");
       }
     });
+    chrome.tabs.reload();
   }
 
   function disableExtension() {
