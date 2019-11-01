@@ -38,3 +38,4 @@
 ||plugins.help.com/*
 ||js.gs-chat.com/*"
 ||widget.customerly.io/*"
+||assets.gorgias.io/chat/*

@@ -53,7 +53,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://plugins.help.com/*",
       "*://js.gs-chat.com/*",
       "*://widget.customerly.io/*",
-      "*://beacon-v2.helpscout.net/"
+      "*://beacon-v2.helpscout.net/",
+      "*://assets.gorgias.io/chat/*"
     ]
   },
   ["blocking"]
