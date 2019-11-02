@@ -7,7 +7,7 @@
     "64": "icons/HGB@0,5x.png",
     "128": "icons/HGB.png"
   },
-  "permissions": ["storage", "webRequest", "webRequestBlocking", "activeTab"],
+  "permissions": ["storage", "webRequest", "webRequestBlocking", "*://*/*"],
   "background": {
     "scripts": ["background.js"],
     "persistent": true

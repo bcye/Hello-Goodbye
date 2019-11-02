@@ -54,7 +54,15 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://js.gs-chat.com/*",
       "*://widget.customerly.io/*",
       "*://beacon-v2.helpscout.net/",
-      "*://assets.gorgias.io/chat/*"
+      "*://assets.gorgias.io/chat/*",
+
+      // someone from x just bought y widgets
+      "*://static.notifia.io/widget.js",
+      "*://cdn.useproof.com/proof.js?*",
+      "*://cdn.provesrc.com/provesrc.js",
+      "*://s3.amazonaws.com/provely-public/w/provely-2.0.js",
+      "*://load.fomo.com/*",
+      "*://pixel.convertize.io/*"
     ]
   },
   ["blocking"]
