@@ -2,10 +2,10 @@
 ! Title: Hello, Goodbye!
 ! Expires: 5 days
 ! Homepage: https://hellogoodbye.app/
-! Description: Blocks every chat or helpdesk pop up in your browser.
+! Description: Hello, Goodbye blocks chat and sales widgets in your browser.
 
 ! =================
-! Stop Chat Pop Ups
+! Stop Chat Widgets
 ! =================
 
 ||widget.intercom.io/*
@@ -37,4 +37,12 @@
 ||smartsupp-widget-161959.c.cdn77.org/build/smartchat-2.3.20.min.js
 ||plugins.help.com/*
 ||js.gs-chat.com/*"
-||widget.customerly.io/*"
+||widget.customerly.io/*
+||beacon-v2.helpscout.net
+||assets.gorgias.io/chat/*
+||static.notifia.io/widget.js
+||cdn.useproof.com/proof.js?*
+||cdn.provesrc.com/provesrc.js
+||s3.amazonaws.com/provely-public/w/provely-2.0.js
+||load.fomo.com/*
+||pixel.convertize.io/*

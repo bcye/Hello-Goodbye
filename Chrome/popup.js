@@ -24,6 +24,7 @@ chrome.storage.sync.get("disabled", function(value) {
         showButton("disable-btn");
       }
     });
+    chrome.tabs.reload();
   }
 
   function disableExtension() {
@@ -43,19 +44,4 @@ chrome.storage.sync.get("disabled", function(value) {
   document
     .getElementById("enable-btn")
     .addEventListener("click", enableExtension);
-});
-
-chrome.storage.onChanged.addListener(function(changes) {
-  for (var key in changes) {
-    var storageChange = changes[key].newValue;
-    if (key === "verified") {
-      if (storageChange) {
-        document.getElementById("app").style.display = "inline-block";
-        document.getElementById("payment-form").style.display = "none";
-      } else {
-        document.getElementById("app").style.display = "none";
-        document.getElementById("payment-form").style.display = "inline-block";
-      }
-    }
-  }
 });
