@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/bcye/Hello-Goodbye.svg?branch=master)](https://travis-ci.org/bcye/Hello-Goodbye)
+[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=Hello,%20Goodbye&repo=bcye/Hello-Goodbye)
 
 # Hello, Goodbye
 
