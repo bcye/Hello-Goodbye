@@ -56,6 +56,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://beacon-v2.helpscout.net/",
       "*://assets.gorgias.io/chat/*",
       "*://static.widget.trengo.eu/embed.js",
+      "*://www.chronopost.fr/JavaHookServer/api/v1/webhook/chat/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
