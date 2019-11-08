@@ -57,6 +57,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://assets.gorgias.io/chat/*",
       "*://static.widget.trengo.eu/embed.js",
       "*://www.chronopost.fr/JavaHookServer/api/v1/webhook/chat/*",
+      "*://www.snapengage.com/chatjs/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
