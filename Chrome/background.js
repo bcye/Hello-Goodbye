@@ -55,6 +55,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://widget.customerly.io/*",
       "*://beacon-v2.helpscout.net/",
       "*://assets.gorgias.io/chat/*",
+      "*://static.quriobot.com/website/*"
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
