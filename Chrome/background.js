@@ -56,6 +56,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://beacon-v2.helpscout.net/",
       "*://assets.gorgias.io/chat/*",
       "*://static.quriobot.com/website/*",
+      "*://commondatastorage.googleapis.com/code.snapengage.com/js/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
