@@ -49,3 +49,4 @@
 ||static.widget.trengo.eu/embed.js
 ||www.chronopost.fr/JavaHookServer/api/v1/webhook/chat/*
 ||www.snapengage.com/chatjs/*
+||widget.replain.cc/dist/*
