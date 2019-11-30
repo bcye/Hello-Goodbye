@@ -48,3 +48,4 @@
 ||pixel.convertize.io/*
 ||static.quriobot.com/static/*
 ||commondatastorage.googleapis.com/code.snapengage.com/js/*
+||embed.tawk.to/*
