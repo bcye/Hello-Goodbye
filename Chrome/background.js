@@ -60,6 +60,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://embed.tawk.to/*",
       "*://*.contactatonce.com/*",
       "*://live-chat-cdn.socialsignin.net/*",
+      "*://messenger.ngageics.com/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

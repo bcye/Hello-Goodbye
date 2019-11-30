@@ -51,3 +51,4 @@
 ||embed.tawk.to/*
 ||*.contactatonce.com/*
 ||live-chat-cdn.socialsignin.net/*
+||messenger.ngageics.com/*
