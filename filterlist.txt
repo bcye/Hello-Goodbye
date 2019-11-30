@@ -50,3 +50,4 @@
 ||commondatastorage.googleapis.com/code.snapengage.com/js/*
 ||embed.tawk.to/*
 ||*.contactatonce.com/*
+||live-chat-cdn.socialsignin.net/*

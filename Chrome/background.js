@@ -59,6 +59,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://commondatastorage.googleapis.com/code.snapengage.com/js/*",
       "*://embed.tawk.to/*",
       "*://*.contactatonce.com/*",
+      "*://live-chat-cdn.socialsignin.net/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
