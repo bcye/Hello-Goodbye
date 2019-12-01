@@ -52,3 +52,4 @@
 ||*.contactatonce.com/*
 ||live-chat-cdn.socialsignin.net/*
 ||messenger.ngageics.com/*
+||app.carnow.com/dealers/carnow_plugin.js?*

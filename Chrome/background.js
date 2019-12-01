@@ -61,6 +61,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://*.contactatonce.com/*",
       "*://live-chat-cdn.socialsignin.net/*",
       "*://messenger.ngageics.com/*",
+      "*://app.carnow.com/dealers/carnow_plugin.js?*"
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
