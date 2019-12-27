@@ -1,0 +1,41 @@
+# Pi-Hole Block List for Hello, Goodbye
+# Blocks annoying chat widgets
+# Written in HOSTS format
+# contact hello@hellogoodbye.app about issues or missing domains
+
+widget.intercom.io
+js.driftt.com
+client.crisp.chat
+widget.mfy.im
+connect.podium.com
+js.usemessages.com
+static.getchipbot.com
+wchat.freshchat.com
+code.jivosite.com
+code.tidio.co
+secure.livechatinc.com
+justanswer.com
+code.snapengage.com
+sdk.inbenta.io
+pi2.movoto.com
+cdn.gubagoo.io
+leadconnect.ipmaxi.se
+static.small.chat
+smartsupp-widget-161959.c.cdn77.org
+plugins.help.com
+js.gs-chat.com
+widget.customerly.io
+beacon-v2.helpscout.net
+assets.gorgias.io
+static.notifia.io
+cdn.useproof.com
+cdn.provesrc.com
+load.fomo.com
+pixel.convertize.io
+static.quriobot.com
+embed.tawk.to
+live-chat-cdn.socialsignin.net
+messenger.ngageics.com
+app.carnow.com
+chat8.live800.com
+tars-file-upload.s3.amazonaws.com
