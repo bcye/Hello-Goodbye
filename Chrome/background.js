@@ -62,6 +62,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://live-chat-cdn.socialsignin.net/*",
       "*://messenger.ngageics.com/*",
       "*://app.carnow.com/dealers/carnow_plugin.js?*",
+      "*://chat8.live800.com/*",
+      "*://tars-file-upload.s3.amazonaws.com/bulb/js/widget.js",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
