@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/bcye/Hello-Goodbye.svg?branch=master)](https://travis-ci.org/bcye/Hello-Goodbye)
+[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=Hello,%20Goodbye&repo=bcye/Hello-Goodbye)
 
 # Hello, Goodbye
 
@@ -24,7 +25,7 @@ Thank you for contributing to the extension.
 
 Please wait for me to approve your issue or request, before beginning work.
 Fork the repository and follow the installation instructions below on how to get the extension running on your machine.
-When you're done open a pull request.
+When you're done open a pull request to the dev branch.
 
 ## Installation
 

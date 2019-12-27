@@ -64,6 +64,9 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://app.carnow.com/dealers/carnow_plugin.js?*",
       "*://chat8.live800.com/*",
       "*://tars-file-upload.s3.amazonaws.com/bulb/js/widget.js",
+      "*://static.widget.trengo.eu/embed.js",
+      "*://www.chronopost.fr/JavaHookServer/api/v1/webhook/chat/*",
+      "*://www.snapengage.com/chatjs/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
