@@ -82,7 +82,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 );
 
 chrome.runtime.onInstalled.addListener(function(details) {
-  if (details.reason === "install" || details.reason === "update") {
+  if (details.reason === "install") {
     chrome.tabs.create({
       url: "https://r.hellogoodbye.app/postinstall",
       active: true
