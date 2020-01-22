@@ -50,6 +50,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://leadconnect.ipmaxi.se/*",
       "*://static.small.chat/messenger.js",
       "*://smartsupp-widget-161959.c.cdn77.org/build/smartchat-2.3.20.min.js",
+      "*://www.smartsuppchat.com/loader.js?",
       "*://plugins.help.com/*",
       "*://js.gs-chat.com/*",
       "*://widget.customerly.io/*",
