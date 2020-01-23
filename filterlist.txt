@@ -60,3 +60,4 @@
 ||www.chronopost.fr/JavaHookServer/api/v1/webhook/chat/*
 ||www.snapengage.com/chatjs/*
 ||kf.ecqun.com/*
+||js.qualified.com/qualified.js?*

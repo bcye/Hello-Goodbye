@@ -69,6 +69,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://www.chronopost.fr/JavaHookServer/api/v1/webhook/chat/*",
       "*://www.snapengage.com/chatjs/*",
       "*://kf.ecqun.com/*",
+      "*://js.qualified.com/qualified.js?*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
@@ -76,8 +77,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://cdn.provesrc.com/provesrc.js",
       "*://s3.amazonaws.com/provely-public/w/provely-2.0.js",
       "*://load.fomo.com/*",
-      "*://pixel.convertize.io/*"
-    ]
+      "*://pixel.convertize.io/*",
+    ],
   },
   ["blocking"]
 );
@@ -86,7 +87,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
   if (details.reason === "install") {
     chrome.tabs.create({
       url: "https://r.hellogoodbye.app/postinstall",
-      active: true
+      active: true,
     });
   }
 
