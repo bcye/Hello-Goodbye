@@ -71,6 +71,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://kf.ecqun.com/*",
       "*://js.qualified.com/qualified.js?*",
       "*://www.aexp-static.com/cdaas/one/statics/axp-shared-scripts/1.4.0/package/dist/vendors/qualtrics/FeedbackLinkModule.js?*",
+      "*://widget.replain.cc/dist/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
