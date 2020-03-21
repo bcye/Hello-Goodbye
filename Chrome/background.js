@@ -74,6 +74,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://widget.replain.cc/dist/*",
       "*://cdn.bitrix24.ru/*",
       "*://code-ya.jivosite.com/widget/exEDaKuDPS",
+      "*://static.zdassets.com/web_widget/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
