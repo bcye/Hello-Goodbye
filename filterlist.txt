@@ -66,3 +66,4 @@
 ||cdn.bitrix24.ru/*
 ||code-ya.jivosite.com/*
 ||static.zdassets.com/web_widget/*
+||my.clickdesk.com/clickdesk-ui/browser/*
