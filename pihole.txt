@@ -45,3 +45,4 @@ js.qualified.com
 widget.replain.cc
 cdn.bitrix24.ru
 static.zdassets.com
+code-ya.jivosite.com
