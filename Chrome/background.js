@@ -76,6 +76,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://code-ya.jivosite.com/*",
       "*://static.zdassets.com/web_widget/*",
       "*://my.clickdesk.com/clickdesk-ui/browser/*",
+      "*://*.videoask.com/embed/embed.js",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

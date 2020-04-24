@@ -47,3 +47,4 @@ cdn.bitrix24.ru
 static.zdassets.com
 code-ya.jivosite.com
 my.clickdesk.com
+videoask.com
