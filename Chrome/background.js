@@ -78,6 +78,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://my.clickdesk.com/clickdesk-ui/browser/*",
       "*://*.videoask.com/embed/embed.js",
       "*://afcs.dellcdn.com/csb/contact-drawer/bundles/js/contact-drawer_v1.js",
+      "*://static.ada.support/embed.js",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
