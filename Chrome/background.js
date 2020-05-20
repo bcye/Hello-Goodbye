@@ -79,6 +79,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://*.videoask.com/embed/embed.js",
       "*://afcs.dellcdn.com/csb/contact-drawer/bundles/js/contact-drawer_v1.js",
       "*://static.ada.support/embed.js",
+      "*://chat.outboundengine.com/c/readychat_website_min.js",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
