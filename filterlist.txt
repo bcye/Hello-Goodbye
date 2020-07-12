@@ -73,3 +73,4 @@
 ||chat.outboundengine.com/c/readychat_website_min.js
 ||knrpc.olark.com/nrpc/c
 ||*.formilla.com/scripts/feedback.js
+||chat-assets.frontapp.com/*

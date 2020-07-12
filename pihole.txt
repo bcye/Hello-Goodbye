@@ -50,3 +50,4 @@ my.clickdesk.com
 videoask.com
 chat.outboundengine.com
 knrpc.olark.com
+chat-assets.frontapp.com
