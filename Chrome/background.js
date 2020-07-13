@@ -90,6 +90,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://s3.amazonaws.com/provely-public/w/provely-2.0.js",
       "*://load.fomo.com/*",
       "*://pixel.convertize.io/*",
+      "*://chat-assets.frontapp.com/*"
     ],
   },
   ["blocking"]
