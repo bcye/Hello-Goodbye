@@ -74,3 +74,4 @@
 ||knrpc.olark.com/nrpc/c
 ||*.formilla.com/scripts/feedback.js
 ||chat-assets.frontapp.com/*
+||widget.instabot.io/jsapi/rokoInstabot.js
