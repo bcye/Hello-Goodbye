@@ -79,3 +79,4 @@
 ||widget.feedot-lawyer.ru/js/*
 ||go.activengage.com
 ||whitesaas.com/api/*
+||messenger.rightside.ru:8080/js/*
