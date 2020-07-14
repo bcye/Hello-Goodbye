@@ -85,3 +85,4 @@
 ||chat-assets.frontapp.com
 ||leadback.ru/js/leadback.js
 ||admin.verbox.ru/support/*
+||lptag.liveperson.net
