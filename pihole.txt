@@ -55,3 +55,4 @@ widget.instabot.io
 site-chat.ru
 widget.feedot-lawyer.ru
 go.activengage.com
+whitesaas.com
