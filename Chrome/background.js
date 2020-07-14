@@ -83,6 +83,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://knrpc.olark.com/nrpc/*",
       "*://*.formilla.com/scripts/feedback.js",
       "*://site-chat.ru/cjs/*",
+      "*://widget.feedot-lawyer.ru/js/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
