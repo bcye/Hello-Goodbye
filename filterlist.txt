@@ -84,3 +84,4 @@
 ||cp.onicon.ru
 ||chat-assets.frontapp.com
 ||leadback.ru/js/leadback.js
+||admin.verbox.ru/support/*

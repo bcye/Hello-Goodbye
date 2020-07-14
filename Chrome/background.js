@@ -91,6 +91,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://cp.onicon.ru",
       "*://chat-assets.frontapp.com",
       "*://leadback.ru/js/leadback.js",
+      "*://admin.verbox.ru/support/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
