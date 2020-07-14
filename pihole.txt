@@ -63,3 +63,4 @@ chat-assets.frontapp.com
 leadback.ru
 admin.verbox.ru
 lptag.liveperson.net
+ready-chat.appspot.com
