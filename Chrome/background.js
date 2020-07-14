@@ -82,6 +82,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://chat.outboundengine.com/c/readychat_website_min.js",
       "*://knrpc.olark.com/nrpc/*",
       "*://*.formilla.com/scripts/feedback.js",
+      "*://site-chat.ru/cjs/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

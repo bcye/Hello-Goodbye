@@ -52,3 +52,4 @@ chat.outboundengine.com
 knrpc.olark.com
 chat-assets.frontapp.com
 widget.instabot.io
+site-chat.ru
