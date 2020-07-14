@@ -77,3 +77,4 @@
 ||widget.instabot.io/jsapi/rokoInstabot.js
 ||site-chat.ru/cjs/*
 ||widget.feedot-lawyer.ru/js/*
+||go.activengage.com

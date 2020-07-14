@@ -84,6 +84,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://*.formilla.com/scripts/feedback.js",
       "*://site-chat.ru/cjs/*",
       "*://widget.feedot-lawyer.ru/js/*",
+      "*://go.activengage.com/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
