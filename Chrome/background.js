@@ -87,6 +87,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://go.activengage.com/*",
       "*://whitesaas.com/api/*",
       "*://messenger.rightside.ru:8080/js/*",
+      "*://lcab.talk-me.ru",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
