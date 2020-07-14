@@ -94,6 +94,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://admin.verbox.ru/support/*",
       "*://lptag.liveperson.net",
       "*://ready-chat.appspot.com",
+      "*://w.chatlio.com",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

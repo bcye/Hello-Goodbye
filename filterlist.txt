@@ -87,3 +87,4 @@
 ||admin.verbox.ru/support/*
 ||lptag.liveperson.net
 ||ready-chat.appspot.com
+||w.chatlio.com
