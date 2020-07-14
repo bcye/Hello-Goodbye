@@ -89,6 +89,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://messenger.rightside.ru:8080/js/*",
       "*://lcab.talk-me.ru",
       "*://cp.onicon.ru",
+      "*://chat-assets.frontapp.com",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

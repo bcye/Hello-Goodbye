@@ -82,3 +82,4 @@
 ||messenger.rightside.ru:8080/js/*
 ||lcab.talk-me.ru
 ||cp.onicon.ru
+||chat-assets.frontapp.com
