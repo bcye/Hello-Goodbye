@@ -60,3 +60,4 @@ messenger.rightside.ru
 lcab.talk-me.ru
 cp.onicon.ru
 chat-assets.frontapp.com
+leadback.ru
