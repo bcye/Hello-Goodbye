@@ -58,3 +58,4 @@ go.activengage.com
 whitesaas.com
 messenger.rightside.ru
 lcab.talk-me.ru
+cp.onicon.ru

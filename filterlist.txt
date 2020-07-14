@@ -81,3 +81,4 @@
 ||whitesaas.com/api/*
 ||messenger.rightside.ru:8080/js/*
 ||lcab.talk-me.ru
+||cp.onicon.ru
