@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c102b5d1-67dd-4c32-ba7b-f9444bd09d16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chrome/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/background.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filterlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filterlist.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pihole.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pihole.txt" afterDir="false" />
@@ -45,7 +46,9 @@
       <option name="presentableId" value="Default" />
       <updated>1563955629848</updated>
       <workItem from="1563955631038" duration="72000" />
-      <workItem from="1594751436767" duration="1550000" />
+      <workItem from="1594751436767" duration="1726000" />
+      <workItem from="1594837893441" duration="43000" />
+      <workItem from="1594895983666" duration="60000" />
     </task>
     <servers />
   </component>

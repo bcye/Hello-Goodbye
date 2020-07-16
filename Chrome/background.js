@@ -96,6 +96,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://ready-chat.appspot.com",
       "*://w.chatlio.com",
       "*://widget-new.helpcrunch.com",
+      "*://clients.streamwood.ru/StreamWood/sw.js",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
