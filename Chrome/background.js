@@ -99,6 +99,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://clients.streamwood.ru/StreamWood/sw.js",
       "*://cs15.livetex.ru/js/client.js",
       "*://widget.consultsystems.ru/*",
+      "*://chatclient.venew.io",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
