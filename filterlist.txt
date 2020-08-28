@@ -92,3 +92,4 @@
 ||clients.streamwood.ru/StreamWood/sw.js
 ||cs15.livetex.ru/js/client.js
 ||widget.consultsystems.ru
+||chatclient.venew.io
