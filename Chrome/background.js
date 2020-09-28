@@ -104,7 +104,6 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://live.vnpgroup.net/js/*",
       "*://crm.digtlab.ru/upload/*",
 
-
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
       "*://cdn.useproof.com/proof.js?*",
