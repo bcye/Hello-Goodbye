@@ -103,6 +103,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://cdn.bitrix24.kz/*",
       "*://live.vnpgroup.net/js/*",
       "*://crm.digtlab.ru/upload/*",
+      "*://me-talk.ru/support/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

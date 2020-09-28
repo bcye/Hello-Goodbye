@@ -73,3 +73,4 @@ d1fw6d83a3emwv.cloudfront.net
 cdn.bitrix24.kz
 live.vnpgroup.net
 crm.digtlab.ru
+me-talk.ru
