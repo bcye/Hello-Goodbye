@@ -70,3 +70,4 @@ clients.streamwood.ru
 cs15.livetex.ru
 widget.consultsystems.ru
 d1fw6d83a3emwv.cloudfront.net
+cdn.bitrix24.kz
