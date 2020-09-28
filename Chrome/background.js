@@ -102,6 +102,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://d1fw6d83a3emwv.cloudfront.net/bot/prod/js/web-chan.js",
       "*://cdn.bitrix24.kz/*",
       "*://live.vnpgroup.net/js/*",
+      "*://crm.digtlab.ru/upload/*",
+
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
