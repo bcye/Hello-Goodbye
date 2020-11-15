@@ -74,3 +74,4 @@ cdn.bitrix24.kz
 live.vnpgroup.net
 crm.digtlab.ru
 me-talk.ru
+cdn-app.continual.ly

@@ -104,6 +104,10 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://live.vnpgroup.net/js/*",
       "*://crm.digtlab.ru/upload/*",
       "*://me-talk.ru/support/*",
+      "*://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js",
+      "*://corp.aquadom.info/upload/crm/site_button/loader_1_lue57s.js*",
+      "*://lawbook.online/chat.js*",
+      "*://static.parastorage.com/services/chat-widget/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
