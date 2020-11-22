@@ -102,3 +102,4 @@
 ||lawbook.online/chat.js*
 ||static.parastorage.com/services/chat-widget/*
 ||service.giosg.com
+||chatbox.cuuma.fi

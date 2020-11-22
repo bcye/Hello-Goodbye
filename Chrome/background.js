@@ -109,6 +109,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://lawbook.online/chat.js*",
       "*://static.parastorage.com/services/chat-widget/*",
       "*://service.giosg.com/*",
+      "*://chatbox.cuuma.fi/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

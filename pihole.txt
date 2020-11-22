@@ -76,3 +76,4 @@ crm.digtlab.ru
 me-talk.ru
 cdn-app.continual.ly
 service.giosg.com
+chatbox.cuuma.fi
