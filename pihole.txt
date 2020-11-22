@@ -69,6 +69,8 @@ widget-new.helpcrunch.com
 clients.streamwood.ru
 cs15.livetex.ru
 widget.consultsystems.ru
+chatclient.venew.io
+api.venyoo.ru
 d1fw6d83a3emwv.cloudfront.net
 cdn.bitrix24.kz
 live.vnpgroup.net
