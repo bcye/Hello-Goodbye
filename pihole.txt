@@ -75,3 +75,4 @@ live.vnpgroup.net
 crm.digtlab.ru
 me-talk.ru
 cdn-app.continual.ly
+service.giosg.com
