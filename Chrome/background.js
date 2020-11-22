@@ -101,6 +101,18 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://widget.consultsystems.ru/*",
       "*://chatclient.venew.io",
       "*://api.venyoo.ru/*",
+      "*://d1fw6d83a3emwv.cloudfront.net/bot/prod/js/web-chan.js",
+      "*://cdn.bitrix24.kz/*",
+      "*://live.vnpgroup.net/js/*",
+      "*://crm.digtlab.ru/upload/*",
+      "*://me-talk.ru/support/*",
+      "*://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js",
+      "*://corp.aquadom.info/upload/crm/site_button/loader_1_lue57s.js*",
+      "*://lawbook.online/chat.js*",
+      "*://static.parastorage.com/services/chat-widget/*",
+      "*://service.giosg.com/*",
+      "*://chatbox.cuuma.fi/*",
+      "*://envybox.io/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

@@ -71,3 +71,11 @@ cs15.livetex.ru
 widget.consultsystems.ru
 chatclient.venew.io
 api.venyoo.ru
+d1fw6d83a3emwv.cloudfront.net
+cdn.bitrix24.kz
+live.vnpgroup.net
+crm.digtlab.ru
+me-talk.ru
+cdn-app.continual.ly
+service.giosg.com
+chatbox.cuuma.fi
