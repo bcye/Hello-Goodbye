@@ -70,3 +70,4 @@ clients.streamwood.ru
 cs15.livetex.ru
 widget.consultsystems.ru
 chatclient.venew.io
+api.venyoo.ru

@@ -100,6 +100,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://cs15.livetex.ru/js/client.js",
       "*://widget.consultsystems.ru/*",
       "*://chatclient.venew.io",
+      "*://api.venyoo.ru/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
