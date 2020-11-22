@@ -108,3 +108,4 @@
 ||chatbox.cuuma.fi
 ||envybox.io/*
 ||widget.lawyer-feedot.ru/*
+||www.flygoldfinch.com/assets/images/whatsapp.png

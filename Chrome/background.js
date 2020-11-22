@@ -114,6 +114,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://chatbox.cuuma.fi/*",
       "*://envybox.io/*",
       "*://widget.lawyer-feedot.ru/*",
+      "*://www.flygoldfinch.com/assets/images/whatsapp.png",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
