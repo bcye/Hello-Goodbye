@@ -113,6 +113,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://service.giosg.com/*",
       "*://chatbox.cuuma.fi/*",
       "*://envybox.io/*",
+      "*://widget.lawyer-feedot.ru/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

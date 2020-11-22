@@ -107,3 +107,4 @@
 ||service.giosg.com
 ||chatbox.cuuma.fi
 ||envybox.io/*
+||widget.lawyer-feedot.ru/*
