@@ -108,6 +108,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://corp.aquadom.info/upload/crm/site_button/loader_1_lue57s.js*",
       "*://lawbook.online/chat.js*",
       "*://static.parastorage.com/services/chat-widget/*",
+      "*://envybox.io/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
