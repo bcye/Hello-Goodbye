@@ -115,6 +115,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://envybox.io/*",
       "*://widget.lawyer-feedot.ru/*",
       "*://www.flygoldfinch.com/assets/images/whatsapp.png",
+      "*://ohotnik174.ru/bitrix/js/main/*",
+      "*://app.uiscom.ru/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

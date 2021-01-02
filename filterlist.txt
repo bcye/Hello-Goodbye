@@ -109,3 +109,4 @@
 ||envybox.io/*
 ||widget.lawyer-feedot.ru/*
 ||www.flygoldfinch.com/assets/images/whatsapp.png
+||ohotnik174.ru/bitrix/js/main/*
