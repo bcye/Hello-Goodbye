@@ -26,7 +26,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://widget.intercom.io/*",
       "*://connect.facebook.net/en_US/sdk/xfbml.customerchat.js",
       "*://assets.producthunt.com/assets/upwigloader.js",
-      "*://js.driftt.com/include/*",
+      "*://js.driftt.com/*",
       "*://*.crisp.chat/*",
       "*://*.intergram.xyz/js/*",
       "*://widget.mfy.im/*",
@@ -99,7 +99,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://clients.streamwood.ru/StreamWood/sw.js",
       "*://cs15.livetex.ru/js/client.js",
       "*://widget.consultsystems.ru/*",
-      "*://chatclient.venew.io",
+      "*://chatclient.venew.io/*",
       "*://api.venyoo.ru/*",
       "*://d1fw6d83a3emwv.cloudfront.net/bot/prod/js/web-chan.js",
       "*://cdn.bitrix24.kz/*",
@@ -117,6 +117,9 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://www.flygoldfinch.com/assets/images/whatsapp.png",
       "*://ohotnik174.ru/bitrix/js/main/*",
       "*://app.uiscom.ru/*",
+      "*://birdeye.com/embed/*",
+      "*://sf-sotc.s3.amazonaws.com/dev/chatsdk/v1/SenseforthChatSDKLoader.js",
+      "*://*.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

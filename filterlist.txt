@@ -11,7 +11,7 @@
 ||widget.intercom.io/*
 ||connect.facebook.net/en_US/sdk/xfbml.customerchat.js
 ||assets.producthunt.com/assets/upwigloader.js
-||js.driftt.com/include/*
+||js.driftt.com/*
 ||*.crisp.chat/*
 ||*.intergram.xyz/js/*
 ||widget.mfy.im/*
@@ -110,3 +110,6 @@
 ||widget.lawyer-feedot.ru/*
 ||www.flygoldfinch.com/assets/images/whatsapp.png
 ||ohotnik174.ru/bitrix/js/main/*
+||birdeye.com/embed/*
+||sf-sotc.s3.amazonaws.com/dev/chatsdk/v1/SenseforthChatSDKLoader.js
+||*.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js
