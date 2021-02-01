@@ -80,3 +80,4 @@ cdn-app.continual.ly
 service.giosg.com
 chatbox.cuuma.fi
 widget.lawyer-feedot.ru
+guide.loyalhealth.com

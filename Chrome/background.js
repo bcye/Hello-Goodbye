@@ -120,6 +120,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://birdeye.com/embed/*",
       "*://sf-sotc.s3.amazonaws.com/dev/chatsdk/v1/SenseforthChatSDKLoader.js",
       "*://*.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+      "guide.loyalhealth.com",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
