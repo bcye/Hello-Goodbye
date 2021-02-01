@@ -121,6 +121,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://sf-sotc.s3.amazonaws.com/dev/chatsdk/v1/SenseforthChatSDKLoader.js",
       "*://*.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
       "guide.loyalhealth.com",
+      "cdn-widget.callpage.io",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

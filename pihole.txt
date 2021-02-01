@@ -81,3 +81,4 @@ service.giosg.com
 chatbox.cuuma.fi
 widget.lawyer-feedot.ru
 guide.loyalhealth.com
+cdn-widget.callpage.io
