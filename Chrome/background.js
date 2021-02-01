@@ -24,7 +24,7 @@ chrome.webRequest.onBeforeRequest.addListener(
   {
     urls: [
       "*://widget.intercom.io/*",
-      "*://connect.facebook.net/en_US/sdk/xfbml.customerchat.js",
+      "*://connect.facebook.net/*/sdk/xfbml.customerchat.js",
       "*://assets.producthunt.com/assets/upwigloader.js",
       "*://js.driftt.com/*",
       "*://*.crisp.chat/*",
@@ -34,7 +34,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://js.usemessages.com/*",
       "*://static.getchipbot.com/",
       "*://static.zdassets.com/ekr/snippet.js",
-      "*://www.couchbase.com/webfiles/1552355627964/js/contact-popup-form.js",
+      "*://www.couchbase.com/webfiles/*/js/contact-popup-form.js",
       "*://assetscdn-wchat.freshchat.com/*",
       "*://wchat.freshchat.com/*",
       "*://code.jivosite.com/script/widget/*",
@@ -138,7 +138,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 chrome.runtime.onInstalled.addListener(function(details) {
   if (details.reason === "install") {
     chrome.tabs.create({
-      url: "https://r.hellogoodbye.app/postinstall",
+      url: "https://r.hellogoodbye.app/downloaded",
       active: true,
     });
   }
