@@ -1,5 +1,5 @@
 // check if extension is enabled or disabled
-chrome.storage.sync.get("disabled", function(value) {
+chrome.storage.local.get("disabled", function(value) {
   if (value.disabled) {
     hideButton("disable-btn");
   } else {
@@ -15,7 +15,7 @@ chrome.storage.sync.get("disabled", function(value) {
   }
 
   function toggleButtons() {
-    chrome.storage.sync.get("disabled", function(value) {
+    chrome.storage.local.get("disabled", function(value) {
       if (value.disabled) {
         hideButton("disable-btn");
         showButton("enable-btn");
@@ -28,7 +28,7 @@ chrome.storage.sync.get("disabled", function(value) {
   }
 
   function disableExtension() {
-    chrome.storage.sync.set({ disabled: true }, function() {
+    chrome.storage.local.set({ disabled: true }, function() {
       toggleButtons();
     });
   }
@@ -37,7 +37,7 @@ chrome.storage.sync.get("disabled", function(value) {
     .addEventListener("click", disableExtension);
 
   function enableExtension() {
-    chrome.storage.sync.set({ disabled: false }, function() {
+    chrome.storage.local.set({ disabled: false }, function() {
       toggleButtons();
     });
   }

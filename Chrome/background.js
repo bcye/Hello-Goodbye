@@ -120,8 +120,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://birdeye.com/embed/*",
       "*://sf-sotc.s3.amazonaws.com/dev/chatsdk/v1/SenseforthChatSDKLoader.js",
       "*://*.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
-      "guide.loyalhealth.com",
-      "cdn-widget.callpage.io",
+      "*://guide.loyalhealth.com/*",
+      "*://cdn-widget.callpage.io/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
@@ -136,16 +136,3 @@ chrome.webRequest.onBeforeRequest.addListener(
   },
   ["blocking"]
 );
-
-chrome.runtime.onInstalled.addListener(function(details) {
-  if (details.reason === "install") {
-    chrome.tabs.create({
-      url: "https://r.hellogoodbye.app/downloaded",
-      active: true,
-    });
-  }
-
-  return false;
-});
-
-chrome.runtime.setUninstallURL("https://r.hellogoodbye.app/uninstall");
