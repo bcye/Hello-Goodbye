@@ -82,3 +82,11 @@ chatbox.cuuma.fi
 widget.lawyer-feedot.ru
 guide.loyalhealth.com
 cdn-widget.callpage.io
+code.evidence.io
+cdn.freshbots.ai
+code.jivo.ru
+carcodesms.com
+js.joonbot.com
+cdn.livechatinc.com
+static.arukereso.hu
+inside-graph.com

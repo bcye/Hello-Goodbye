@@ -122,6 +122,16 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://*.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
       "*://guide.loyalhealth.com/*",
       "*://cdn-widget.callpage.io/*",
+      "*://cdn.shopify.com/shopifycloud/shopify_chat/*",
+      "*://*.nuance.com/media/launch/chatLoader*",
+      "*://cdn.freshbots.ai/assets/share/js/freshbots*",
+      "*://app.frase.io/js/*",
+      "*://code.jivo.ru/widget/*",
+      "*://www.carcodesms.com/widgets/*",
+      "*://js.joonbot.com/init.js",
+      "*://cdn.livechatinc.com/*",
+      "*://static.arukereso.hu/widget/*",
+      "*://*.inside-graph.com/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
@@ -132,6 +142,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://pixel.convertize.io/*",
       "*://chat-assets.frontapp.com/*",
       "*://widget.instabot.io/jsapi/rokoInstabot.js",
+      "*://code.evidence.io/*",
     ],
   },
   ["blocking"]

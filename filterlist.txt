@@ -115,3 +115,14 @@
 ||*.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js
 guide.loyalhealth.com
 cdn-widget.callpage.io
+||code.evidence.io/*
+||cdn.shopify.com/shopifycloud/shopify_chat/*
+||*.nuance.com/media/launch/chatLoader*
+||cdn.freshbots.ai/assets/share/js/freshbots*
+||app.frase.io/js/*
+||code.jivo.ru/widget/*
+||www.carcodesms.com/widgets/*
+||js.joonbot.com/init.js
+||cdn.livechatinc.com/*
+||static.arukereso.hu/widget/*
+||*.inside-graph.com/*
