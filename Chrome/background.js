@@ -37,6 +37,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://www.couchbase.com/webfiles/*/js/contact-popup-form.js",
       "*://assetscdn-wchat.freshchat.com/*",
       "*://wchat.freshchat.com/*",
+      "*://wchat.eu.freshchat.com/*",
       "*://code.jivosite.com/script/widget/*",
       "*://code.tidio.co/*",
       "*://*.user.com/static/js/*",
