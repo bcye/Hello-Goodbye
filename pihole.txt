@@ -93,3 +93,4 @@ inside-graph.com
 static.bots.sefbot.cz
 chatbot.sipgate.de
 quriobot.com
+vmss-eu.boldchat.com

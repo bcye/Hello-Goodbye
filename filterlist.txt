@@ -130,3 +130,4 @@ cdn-widget.callpage.io
 ||static.bots.sefbot.cz/website/js/widget*
 ||chatbot.sipgate.de/*
 ||quriobot.com/qb/widget/*
+||vmss-eu.boldchat.com/*
