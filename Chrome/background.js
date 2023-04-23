@@ -146,6 +146,9 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://cdn-bot.phenompeople.com/*",
       "*://cdn.envybox.io/*",
 
+      // specific ones
+      "*://dogovor-obrazets.ru/*/settings*",
+
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
       "*://cdn.useproof.com/proof.js?*",

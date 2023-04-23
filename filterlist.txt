@@ -135,3 +135,4 @@ cdn-widget.callpage.io
 ||cdn-bot.phenompeople.com/*
 ||cdn.webpushr.com/*
 ||cdn.envybox.io/*
+||dogovor-obrazets.ru/5dbb57548e2b7716ac2561488bac0fa9/7548e/settings.js
