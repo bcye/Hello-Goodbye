@@ -10,6 +10,11 @@ chrome.storage.onChanged.addListener(function(changes) {
   }
 });
 
+// initialize disabled, onChanged only gets called when change, not at beginning
+chrome.storage.local.get("disabled", function(value) {
+  isDisabled = !!value.disabled;
+});
+
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
     // set badge text to indicate that a help widget is available
