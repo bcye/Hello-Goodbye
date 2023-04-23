@@ -155,6 +155,9 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://chat-assets.frontapp.com/*",
       "*://widget.instabot.io/jsapi/rokoInstabot.js",
       "*://code.evidence.io/*",
+
+      // webpush
+      "*://cdn.webpushr.com/*", // bot + notification banner blocked
     ],
   },
   ["blocking"]
