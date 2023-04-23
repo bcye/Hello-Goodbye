@@ -139,6 +139,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://static.arukereso.hu/widget/*",
       "*://*.inside-graph.com/*",
       "*://static.bots.sefbot.cz/website/js/widget*",
+      "*://chatbot.sipgate.de/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
