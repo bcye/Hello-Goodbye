@@ -142,6 +142,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://chatbot.sipgate.de/*",
       "*://quriobot.com/qb/widget/*",
       "*://vmss-eu.boldchat.com/*",
+      "*://pageview.activengage.com/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",

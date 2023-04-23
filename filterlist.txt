@@ -131,3 +131,4 @@ cdn-widget.callpage.io
 ||chatbot.sipgate.de/*
 ||quriobot.com/qb/widget/*
 ||vmss-eu.boldchat.com/*
+||pageview.activengage.com/*
