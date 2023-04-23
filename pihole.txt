@@ -92,3 +92,4 @@ static.arukereso.hu
 inside-graph.com
 static.bots.sefbot.cz
 chatbot.sipgate.de
+quriobot.com

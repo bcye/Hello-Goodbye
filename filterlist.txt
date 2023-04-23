@@ -129,3 +129,4 @@ cdn-widget.callpage.io
 ||*.inside-graph.com/*
 ||static.bots.sefbot.cz/website/js/widget*
 ||chatbot.sipgate.de/*
+||quriobot.com/qb/widget/*
