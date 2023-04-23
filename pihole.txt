@@ -97,3 +97,4 @@ vmss-eu.boldchat.com
 pageview.activengage.com
 cdn-bot.phenompeople.com
 cdn.webpushr.com
+cdn.envybox.io

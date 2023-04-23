@@ -134,3 +134,4 @@ cdn-widget.callpage.io
 ||pageview.activengage.com/*
 ||cdn-bot.phenompeople.com/*
 ||cdn.webpushr.com/*
+||cdn.envybox.io/*

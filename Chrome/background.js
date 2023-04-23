@@ -144,6 +144,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://vmss-eu.boldchat.com/*",
       "*://pageview.activengage.com/*",
       "*://cdn-bot.phenompeople.com/*",
+      "*://cdn.envybox.io/*",
 
       // someone from x just bought y widgets
       "*://static.notifia.io/widget.js",
